@@ -1,0 +1,358 @@
+
+#base-nav{
+    height: 4.5rem;
+    position: fixed;
+  @media (max-width: 1204px) {
+
+    height: 3.0rem;
+  }
+}
+#nav-itor{
+  border-radius: 0.4rem;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: #98eaf2db 0px 5px 15px;
+    position: relative;
+    background-color: #98eaf2db;
+    justify-content: space-evenly;
+}
+@media (min-width: 1204px) {
+  #nav-itor {
+    margin: 2rem;
+    margin-top: 1rem;
+  }
+}
+/*NOTE: nav LOGO*/
+
+
+#nav-logo {
+  color: #ffffff;
+  background-color: orange;
+  padding-inline: 4rem;
+  font-size: 3rem;
+  font-style: oblique;
+  text-shadow: #f0f0f0ff 0px 5px 15px;
+  position: relative;
+  height: 80%;
+  border-radius: 0.4rem;
+  box-shadow: #fa0f 0px 5px 15px;
+
+    display: flex;
+    position: relative;
+  justify-items: center;
+  align-items: center;
+  @media (max-width: 1204px) {
+
+    font-size: 2rem;
+  }
+}
+#bt-burger{
+    display: none;
+  @media (max-width: 1204px) {
+    display: flex;
+  }
+}
+.bt-burger{
+    position: relative;
+    padding-top: 0.3rem;
+}
+.cont-home-nav-item-fo.bt-burger{
+    height: 70%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+	pointer-events: none;
+	flex-shrink: 0;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	color: #fa0;
+}
+
+.walkerIll {
+  position: absolute;
+  height:10px;
+  width: 10px;
+  background: #e55;
+  animation: walk 4s linear infinite;
+  box-shadow: #f00f 0px 5px 15px;
+  border-radius: 50%;
+
+}
+.walker {
+  position: absolute;
+  height:10px;
+  width: 10px;
+  background: #343;
+  animation: walk 4s linear infinite;
+  box-shadow: #000f 0px 5px 15px;
+  border-radius: 50%;
+
+}
+
+@keyframes walk {
+  0% {
+    top: 0; left: 0;
+  }
+  40% {
+    top: 0; left: calc(100% - 10px);
+  }
+  50% {
+    top: calc(100% - 10px); left: calc(100% - 10px);
+  }
+  90% {
+    top: calc(100% - 10px); left: 0;
+  }
+  100% {
+    top: 0; left: 0;
+  }
+}
+/*NOTE: ITEMS*/
+/* Subrayado animado */
+/* ITEMS select*/
+#nav-item{
+    display: flex;
+  @media (max-width: 1204px) {
+      background: #4A6C7B;
+      display: none;
+  }
+}
+
+
+.text-animado-IN {
+
+  position: relative;
+  z-index: 1;
+  padding-inline: 0.5rem;
+  color: #000;
+        /* Text gradient background for animation */
+
+  position: relative;
+  z-index: 1;
+  padding-inline: 0.5rem;
+  text-shadow: #fff 0px 5px 15px;
+
+
+  position: relative;
+  display: inline-block;
+  
+  /* Estilo del texto animado */
+  background: linear-gradient(135deg , #ff0000 50%,  #ff00aa 50%);
+  background-size: 300%;
+  background-position: bottom right;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 1.0s ease;
+}
+.text-animado-IN::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(135deg , #ff0000 50%,  #330909 50%);
+  background-size: 300%;
+  background-position: bottom right;
+  transition: background-position 2.0s ease;
+}
+
+/* Al pasar el mouse: animar ambos */
+.cont-home-nav-item-fo:hover .text-animado-IN {
+  background-position: top left;
+  text-shadow: #f00 0px 5px 15px;
+}
+
+.cont-home-nav-item-fo:hover .text-animado-IN::after {
+  background-position: top left;
+}
+.cont-home-nav-item-fo.active{
+    background-color: #ffff00;
+  box-shadow: #fa0 0px 5px 15px;
+}
+.cont-home-nav-item-fo.active:hover{
+  box-shadow: #f00 0px 5px 15px;
+}
+.cont-home-nav-item-fo.active::before{
+    background-color: #730909;
+}
+
+/* NOTE: ITEMS NOT select*/
+.text-animado {
+  position: relative;
+  z-index: 1;
+  padding-inline: 0.5rem;
+  color: #ffa500;
+  text-shadow: #111111ff 0px 5px 15px;
+        /* Text gradient background for animation */
+
+  position: relative;
+  z-index: 1;
+  padding-inline: 0.5rem;
+  text-shadow: #ff0 0px 5px 15px;
+
+
+  position: relative;
+  display: inline-block;
+  
+  /* Estilo del texto animado */
+  background: linear-gradient(135deg , #ff00aa 50%,  #ff0000 50%);
+  background-size: 300%;
+  background-position: bottom right;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 1.0s ease;
+}
+.text-animado::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(135deg , #330909 50%,  #ff0000 50%);
+  background-size: 300%;
+  background-position: bottom right;
+  transition: background-position 2.0s ease;
+}
+
+/* Al pasar el mouse: animar ambos */
+.cont-home-nav-item-fo:hover .text-animado {
+  background-position: top left;
+  text-shadow: #f00 0px 5px 15px;
+}
+
+.cont-home-nav-item-fo:hover .text-animado::after {
+  background-position: top left;
+}
+.cont-home-nav-item-fo {
+  border-radius: 0.4rem;
+  position: relative;
+  background-color: #730909;
+  overflow: hidden;
+  margin-inline: 0.5rem;
+  padding: 0.7rem;
+  padding-top: 0.4rem;
+  box-shadow: #f00 0px 5px 15px;
+  z-index: 0;
+  /* 👇 crea stacking context explícito */
+  isolation: isolate;
+}
+
+.cont-home-nav-item-fo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background-color: #ffff00;
+  transform: scaleX(0) scaleY(0);
+  transform: skew(-83deg, 0) translate(-150%);
+  transform-origin: top left;
+  transition: transform 1.0s ease;
+  z-index: -1; /* 👈 importante: por debajo del texto siempre */
+}
+.cont-home-nav-item-fo:hover{
+
+  box-shadow: #fa0 0px 5px 15px;
+}
+.cont-home-nav-item-fo:hover::before {
+  transform: scaleX(1) scaleY(1);
+}
+
+/* NOTE: CONTACT*/
+#nav-contacts{
+    display: flex;
+  @media (max-width: 1204px) {
+      background: #4A6C7B;
+      display: none;
+  }
+}
+.text-animado-ct {
+
+  position: relative;
+  z-index: 1;
+  padding-inline: 0.5rem;
+  --color-sct: #111120;
+  color: var(--color-sct);
+  text-shadow: #111111ff 0px 5px 15px;
+        /* Text gradient background for animation */
+
+  position: relative;
+  z-index: 1;
+  padding-inline: 0.5rem;
+  text-shadow: rgba(5, 5, 20, 0.85) 0px 5px 15px;
+
+
+  position: relative;
+  display: inline-block;
+  
+  /* Estilo del texto animado */
+  background: linear-gradient(135deg , #4ce3e3 50%,  #055 50%);
+  background-size: 300%;
+  background-position: bottom right;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.9s ease;
+}
+.text-animado-ct::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(135deg , #4ce3e3 50%,  #055 50%);
+  background-size: 300%;
+  background-position: bottom right;
+  transition: background-position 0.5s ease;
+}
+
+/* Al pasar el mouse: animar ambos */
+#cont-home-nav-item-ct:hover .text-animado-ct {
+  background-position: top left;
+}
+
+#cont-home-nav-item-ct:hover .text-animado-ct::after {
+  background-position: top left;
+}
+#cont-home-nav-item-ct {
+  border-radius: 0.4rem;
+  position: relative;
+  background-color: #4ce3e3e0;
+  overflow: hidden;
+  margin-inline: 0.5rem;
+  padding: 0.7rem;
+  padding-top: 0.4rem;
+  box-shadow: #0aa 0px 5px 15px;
+  z-index: 0;
+  /* 👇 crea stacking context explícito */
+  isolation: isolate;
+}
+
+#cont-home-nav-item-ct::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background-color: #055;
+  transform: scaleX(0) scaleY(0);
+  transform: skew(-83deg, 0) translate(-150%);
+  transform-origin: top left;
+  transition: transform 1.0s ease;
+  z-index: -1; /* 👈 importante: por debajo del texto siempre */
+}
+
+#cont-home-nav-item-ct:hover {
+  box-shadow: #055 0px 5px 15px;
+}
+#cont-home-nav-item-ct:hover::before {
+  transform: scaleX(1) scaleY(1);
+}
+
