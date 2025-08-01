@@ -1,0 +1,32 @@
+create page web static:
+    Inicio:
+        Hero :
+            Div 1:
+            Título: Tu sitio web moderno, rápido y claro
+            Texto: En Flix-UX creamos páginas web estáticas con diseño actual y navegación fluida. Secciones clave como Inicio, Productos, Nosotros y Contacto, hechas con Next.js y animaciones sutiles que elevan la experiencia del usuario.
+            
+            Div 2:
+            Texto: ¿Buscas una web que se vea profesional sin complicaciones?
+            Usamos estándares web y las tecnologías más modernas para crear sitios rápidos, accesibles y atractivos para cualquier tipo de negocio.
+            👉 Mira nuestro catálogo
+
+
+        pop-up promocional:
+            
+        card personalizada:
+            cambio de letras en estilo matrix:
+              las letras o segmento deve pasar por varias letras (none)
+              a distinto tiempo de 0.5s de diferencia (none)
+
+
+        tecnolgias:
+            
+        ultimo mensaje:
+    Catalogo:
+        diseno presentaciones tarjetas y mas
+    Funciones:
+        carateristicas como correor data infos y mas 
+    ? nessesito un sitio web?:
+        informes de ventas relacionado a tener o no tener sitio web
+        minigame:
+    

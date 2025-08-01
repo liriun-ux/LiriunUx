@@ -1,0 +1,254 @@
+#HBack{
+    background-color: #1d2430;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    z-index: -10;
+    overflow: hidden;
+}
+.HBR{
+    background-color: #ffaa00;
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    left: 25%;
+    transform: skew(30deg) rotate(35deg);
+
+  @media (max-width: 1204px) {
+    width: 50%;
+    height: 15%;
+  }
+}
+#HBRN1{
+    box-shadow:
+    0 4px 35px #0f0,    /* externa */
+    inset 0 4px 35px #070; /* interna */
+}
+#HBRN2{
+    box-shadow:
+    0 4px 35px #0ff,    /* externa */
+    inset 0 4px 35px #077; /* interna */
+}
+
+#HBRN3{
+    box-shadow:
+    0 4px 35px #fa0,    /* externa */
+    inset 0 4px 35px #a50; /* interna */
+}
+#HBRN4{
+    box-shadow:
+    0 4px 35px #ff0,    /* externa */
+    inset 0 4px 35px #aa0; /* interna */
+}
+#HBRN5{
+    box-shadow:
+    0 4px 35px #f00,    /* externa */
+    inset 0 4px 35px #a00; /* interna */
+}
+#HBRN6{
+    box-shadow:
+    0 4px 35px #fff,    /* externa */
+    inset 0 4px 35px #888; /* interna */
+}
+#H_base{
+    margin-top: 4%;
+    height: 80%;
+    width: 85%;
+    display: flexbox;
+    position: relative;
+    /* align-items: center; */
+    /* justify-content: center; */
+    z-index: 20;
+}
+#ONT{
+    position:relative ;
+    display: flex;
+    top: 0;
+    height: 85%;
+    width: 100%;
+}
+
+#HB_Title {
+    /* background-color: #fff3; */
+    height: 95%;
+    width: 37%;
+    right: 50%;
+    position: absolute;
+    display: flex;
+    border-radius: 15px;
+    /* box-shadow: #a0e1fa 0px 5px 15px; */
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 2px solid #ffffff33; */
+    /* backdrop-filter: blur(30px); */
+  @media (max-width: 1204px) {
+    width: 85%;
+    right: 05%;
+  }
+}
+#HBT_T{
+    position: relative;
+    display: flex;
+    top: 0;
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#HBTT_B{
+    --fotl: #18eec6;
+    --fotl1: #0d5368;
+    background-color: var(--fotl);
+    color: var(--fotl1);
+    width: 30%;
+    height: 80%;
+    transform: skew(-20deg);
+    font-size: 4.5rem;
+    text-decoration-line:underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #0c47b9 0px 5px 15px;
+    box-shadow: var(--fotl) 5px 5px 15px;
+    border-radius: 15px;
+  @media (max-width: 1204px) {
+      font-size: 3rem;
+    height: 100%;
+    width: 80%;
+  }
+
+}
+#HBT_C{
+      position: absolute;
+  top: 5%;
+  height: 70%;
+  width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+
+}
+#HBTC_B{
+        /* border: 2px solid #f4b06833; */
+    position: absolute;
+    --fotb: #000322;
+    --fotb1: #8ddef7;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    left: 0;
+    top: 10%;
+    width: 60%;
+    height: 60%;
+    font-size: 2.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding-inline: 1rem;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 2px solid #ffffff33; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+      font-size: 1.2rem;
+  }
+}
+#HBTC_B div{
+    margin-left: 0.5rem;
+}
+#RHBTC_B div{
+    /* margin-right: 0.5rem; */
+}
+.marca {
+  color: #ffffff; /* O el color que prefieras */
+  text-shadow: #fff 0px 2px 15px;
+  font-weight: bold; /* Opcional */
+}
+
+#RHBT_C{
+      position: absolute;
+  top: 50%;
+
+  height: 70%;
+  width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: start;
+
+}
+#RHBTC_B{
+        /* border: 2px solid #f4b06833; */
+
+      position: absolute;
+      right: 0;
+      top: 55%;
+    --fotb: #ffffff;
+    --fotb1: #ff0000;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: 60%;
+    height: 60%;
+    font-size: 2.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding-inline: 1rem;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 2px solid #ffffff33; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+      font-size: 1.1rem;
+  }
+}
+
+/* #HB_Content { */
+/*     background-color: #06384487; */
+/*     height: 70%; */
+/*     width: 60%; */
+/*     left: 35%; */
+/*     bottom: -5%; */
+/*     position: absolute; */
+/*     border-radius: 5px; */
+/*     box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+/*     border: 2px solid #ffffff33; */
+/*     backdrop-filter: blur(30px); */
+/*   @media (max-width: 1204px) { */
+/*       /* display: none; */ 
+/*   } */
+/* } */
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, z-index 0.3s ease, opacity 0.3s ease;
+  position: relative;
+  z-index: 10;
+}
+
+
+/* Cuando un box está hover, se agranda y sube z-index */
+.box:hover {
+  transform: scale(1.05);
+  z-index: 20;
+}
+
+/* Cuando un box está hover, el otro se reduce */
+.box:hover ~ .box,
+.box:not(:hover) {
+  transform: scale(1.00);
+  z-index: 10;
+}
+
+

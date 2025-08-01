@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react';
 import { HomeNavBarItem } from './navbar.item';
 import HomeNavPBar from './nav.phone';
@@ -32,7 +34,7 @@ const NewHomeNavBar: React.FC = () => {
         
         setOpen(false)
         setIsOpen(!isOpen);
-      },10);
+      },300);
       }
       else{
         setIsOpen(!isOpen);
@@ -52,7 +54,7 @@ document.body.style.overflow = "hidden";
                 <div className="walkerIll" style={{animationDelay:'-0.73s' , animationDuration:'4.5s'}}></div>
 
             <div id='nav-logo'>
-                <div className=' underline'>YTRIO-UX</div>
+                <div className=' underline'>LIRIUN-UX</div>
                 <div className="walker"></div>
                 <div className="walker" style={{animationDelay:'-0.03s' , animationDuration:'4.8s'}}></div>
                 <div className="walker" style={{animationDelay:'0.03s' , animationDuration:'5.3s'}}></div>
@@ -94,7 +96,7 @@ document.body.style.overflow = "hidden";
                 </button>
             </div>
             {isOpen &&(
-                <HomeNavPBar/>
+                <HomeNavPBar open={open} />
             )}
         </div>
       </div>

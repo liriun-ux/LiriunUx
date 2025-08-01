@@ -1,6 +1,6 @@
 'use client'
 // components/SplashScreen.tsx
-import { useEffect, useState } from "react";
+import { useEffect  } from "react";
 import Logo from "./logo";
 // components/SplashScreen.tsx
 export default function SplashScreen({ onFinish }: { onFinish: () => void }) {
