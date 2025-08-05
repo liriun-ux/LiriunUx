@@ -1,7 +1,10 @@
 @import "tailwindcss";
 @import "./logo_init.css";
 @import "./navbar.css";
+
 @import "./Home.css";
+@import "./Home/Info.css";
+@import "./WEB/css/panchang.css";
 
 :root {
   --background: #1e323c;

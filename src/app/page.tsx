@@ -4,6 +4,7 @@ import { useState ,useEffect } from "react";
 import SplashScreen from "@/home/splashscreen";
 import NewHomeNavBar from "@/home/NewNav";
 import HeroHome from "@/home/sections/Hero";
+import InfoHome from "@/home/sections/Info";
 export default function Home() {
     const [showContent, setShowContent] = useState(false);
       useEffect(() => {
@@ -30,6 +31,7 @@ export default function Home() {
        <div className="relative w-screen log-cont flex-col justify-center items-center HomeFor">
           <NewHomeNavBar/>
           <HeroHome/>
+          <InfoHome/>
           <section className="h-screen  w-1/3  ">hello</section>
           <section className="h-screen  w-1/3  ">hello</section>
           <section className="h-screen  w-1/3  ">hello</section>

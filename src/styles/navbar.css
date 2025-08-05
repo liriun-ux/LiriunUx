@@ -370,7 +370,7 @@
   transform: translate(-50%, -50%);
 
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   justify-items: center;
   text-align: center;
 }
