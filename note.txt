@@ -2,11 +2,14 @@ create page web static:
     HOME: 
         HERO: simople mensaje superficial o presentacion (OK)
         INFO: explicar en que consiste el oproducto(OK)
-        Tecnologias: las tecnologias usadas 
-        ANIMECIONES (OP): animaciones
-        LAST MSS: mensaje para animar a que cree  una pagina web
-    PRODUCTO(): N SECCIONES PARA DIFERENTES RUBROS
-    NOSOTROS PROPOSITO():
+#########        PRODUCTS: 
+        Tecnologias: las tecnologias usadas (>>>...<<<) (OK)
+########        ANIMECIONES (OP): animaciones
+        LAST MSS: mensaje para animar a que cree  una pagina web (OK)
+    CATALOGO : (NEEDDD)
+    NOSOTROS :
+        PROPOSITO():
+        PRODUCTO(): N SECCIONES PARA DIFERENTES RUBROS
 
     NESESITO UNA WEB : esplicacion a base de datos sobre las cualidades de tener una web en esta era y 
         su beneficio a los negocios 

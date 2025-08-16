@@ -11,7 +11,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
   @media (max-width: 1204px) {
     height: 40%;
   }
@@ -27,8 +27,8 @@
 #InfoTextT{
     /* --color: #5b1435; */
     /* --color1: #f47a30; */
-    --color: #112;
-    --color1: #ccf;
+    --color: #000322;
+    --color1: #fd0eff;
     background-color: var(--color);
     color: var(--color1);
     font-size: 1.8rem;
@@ -52,10 +52,10 @@
     /* background-color: #0a0; */
     height: 70%;
     width: 100%;
-    position: relative;
+    /* position: relative; */
     /* display: grid; */
-    justify-content: center;
-    align-items: end;
+    /* justify-content: center; */
+    /* align-items: end; */
   @media (max-width: 1204px) {
     height: 60%;
   }
@@ -91,7 +91,7 @@
     transition: transform 0.3s ease-in-out;
   @media (max-width: 1204px) {
     font-size: 0.9rem;
-    padding: 0.46rem;
+    padding: 0.30rem;
     margin-inline: 0.2rem;
     border-radius: 0.4rem;
   }
@@ -101,6 +101,7 @@
     /* scale: 1.1; */
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
+	box-shadow: #fff 0px 0px 15px;
 }
 /* .InfoAnBTT:focus{ */
 /*     background-color: #fff; */

@@ -4,6 +4,8 @@
 
 @import "./Home.css";
 @import "./Home/Info.css";
+@import "./Home/LastMss.css";
+@import "./Home/Tecnologias.css";
 @import "./WEB/css/panchang.css";
 
 :root {

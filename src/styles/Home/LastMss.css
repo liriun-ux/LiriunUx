@@ -1,0 +1,125 @@
+#HLB{
+    margin-top: 4%;
+    height: 80%;
+    width: 85%;
+    display: flexbox;
+    position: relative;
+    font-size: 2rem;
+  /* position: relative; */
+  /* display: flex; */
+  /* justify-content:start; */
+  /* align-items: center; */
+}
+
+/* NOTE: LEVEL 2*/
+#HLN{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    display: grid;
+    justify-content: start  ;
+    align-items: start;
+    justify-items: center;
+}
+#HLC{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    display: grid;
+    top: 43%;
+    justify-content: end;
+    align-items: end;
+    justify-items: center;
+
+}
+
+#HLO{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 75%;
+    right: 0;
+    display: grid;
+    justify-content: start  ;
+    align-items: start;
+    justify-items: center;
+}
+
+/* NOTE: LEVEL 3*/
+
+.HLCT{
+--color: #fb6a01;
+  --color1: #460202;
+    background-color: var(--color);
+    color: var(--color1);
+    font-size: 1.8rem;
+    text-align: center;
+    text-shadow: var(--color1) 0px 2px 15px;
+    box-shadow: var(--color) 5px 5px 15px;
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+    padding: 2rem;
+  /*   text-decoration-line: underline; */
+  /* text-decoration-color: #970202; */
+  @media (max-width: 1204px) {
+      font-size: 1.1rem;
+    width: 100%;
+    height: auto;
+    padding: 0.8rem;
+  }
+}
+.HLCB{
+    position: relative;
+    bottom: 50%;
+    /* width: max-content; */
+    margin-top: 4.0rem;
+    scale: 0.8;
+  @media (max-width: 1204px) {
+    scale: 0.50;
+    /* width: max-content; */
+  }
+}
+
+/*NOTE: BOT*/
+.HLCB .cont-home-nav-item-fo{
+    --color: #eef;
+    --color1: #000033;
+    background-color: var(--color);
+    color: var(--color1);
+    box-shadow: var(--color) 5px 5px 15px;
+    text-shadow: var(--color1) 0px 2px 15px;
+}
+.HLCB .cont-home-nav-item-fo:hover .text-animado{
+    text-shadow: #fd0bf9 0px 2px 15px;
+}
+.HLCB .cont-home-nav-item-fo:hover {
+    box-shadow: #68105a 5px 5px 15px;
+    /* background-color: #68105a; */
+}
+
+
+.HLCB .cont-home-nav-item-fo::before{
+    background-color: #68105a;
+}
+
+.HLCB  .text-animado::after{
+    background: linear-gradient(135deg, #fd0bf9 50%, #000 50%) 100% 100% / 300%;
+    height: 2px;
+}
+.HLCB  .text-animado{
+z-index: 1;
+  color: orange;
+  z-index: 1;
+  text-shadow: 0 5px 15px #0ff;
+  background: linear-gradient(135deg, #fd0bf9 50%, #003 50%) 100% 100% / 300%;
+    background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  /* padding-inline: 0.5rem; */
+  transition: background-position 1s;
+  display: inline-block;
+  position: relative;
+}

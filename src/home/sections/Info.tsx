@@ -38,6 +38,15 @@ const InfoHome: React.FC = () => {
 
         <div id="Info_base">
 
+            <div id="InfoText" className="boxA">
+                <div id="InfoTextB"> 
+                    <div id="InfoTextT">
+                        En la parte inferior encontrarás un ejemplo del esquema clásico de navegación web, 
+                        con las secciones esenciales tal como se emplea en sitios web 
+                        modernos y funcionales.
+                    </div>
+                </div>
+            </div>
             <div id="InfoAnimate" className="boxA">
                     <div id="InfoAnA" className="">
                         <button className={`InfoAnBTT ${activeSection === Text.inicio ? 'InfoAnBTTF' : ''}`}  onClick={() => setActiveSection(Text.inicio)}    >INICIO</button>
@@ -53,15 +62,6 @@ const InfoHome: React.FC = () => {
                     </div>
             </div>
 
-            <div id="InfoText" className="boxA">
-                <div id="InfoTextB"> 
-                    <div id="InfoTextT">
-                        En la parte superior encontrarás un ejemplo del esquema clásico de navegación web, 
-                        con las secciones esenciales tal como se emplea en sitios web 
-                        modernos y funcionales.
-                    </div>
-                </div>
-            </div>
 
         </div>
 

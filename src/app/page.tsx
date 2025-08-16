@@ -5,6 +5,9 @@ import SplashScreen from "@/home/splashscreen";
 import NewHomeNavBar from "@/home/NewNav";
 import HeroHome from "@/home/sections/Hero";
 import InfoHome from "@/home/sections/Info";
+import Tecnologias from "@/home/sections/Tecnologias";
+import LastMss from "@/home/sections/Lastmss";
+
 export default function Home() {
     const [showContent, setShowContent] = useState(false);
       useEffect(() => {
@@ -32,9 +35,8 @@ export default function Home() {
           <NewHomeNavBar/>
           <HeroHome/>
           <InfoHome/>
-          <section className="h-screen  w-1/3  ">hello</section>
-          <section className="h-screen  w-1/3  ">hello</section>
-          <section className="h-screen  w-1/3  ">hello</section>
+          <Tecnologias/>
+          <LastMss/>
       </div>
       )}
     </div>
