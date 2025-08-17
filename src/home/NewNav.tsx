@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { HomeNavBarItem } from './navbar.item';
 import HomeNavPBar from './nav.phone';
+import Link from 'next/link';
 const navigation =
   [
     {
@@ -14,8 +15,8 @@ const navigation =
       'href': "/catalogo"
     },
     {
-      'name': "FUNCIONES",
-      'href': "/funciones"
+      'name': "NOSOTROS",
+      'href': "/nosotros"
     },
     {
       'name': "¿NESESITO UNA WEB?",
@@ -74,13 +75,15 @@ document.body.style.overflow = "hidden";
             <div id='nav-contacts' className='flex'>
                 <div id="cont-home-nav-item-ct" 
                 >
+                <Link href={"/info"}>
                   <div
                     className={`
                         text-animado-ct
                     `}
-                  >
+                    >
                     CONTACTOS
                   </div>
+                  </Link>
                 </div>
             </div>
 

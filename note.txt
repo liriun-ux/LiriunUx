@@ -6,7 +6,7 @@ create page web static:
         Tecnologias: las tecnologias usadas (>>>...<<<) (OK)
 ########        ANIMECIONES (OP): animaciones
         LAST MSS: mensaje para animar a que cree  una pagina web (OK)
-    CATALOGO : (NEEDDD)
+    CATALOGO : (NEEDDD) 3 sections
     NOSOTROS :
         PROPOSITO():
         PRODUCTO(): N SECCIONES PARA DIFERENTES RUBROS

@@ -27,8 +27,8 @@
 #InfoTextT{
     /* --color: #5b1435; */
     /* --color1: #f47a30; */
-    --color: #000322;
-    --color1: #fd0eff;
+    --color: #075357;
+    --color1: #00ffff;
     background-color: var(--color);
     color: var(--color1);
     font-size: 1.8rem;

@@ -1,5 +1,6 @@
 "use client"
 import { HomeNavBarItem } from './navbar.item';
+import Link from 'next/link';
 type Props = {
   open: boolean;
 };
@@ -14,8 +15,8 @@ const navigation =
       'href': "/catalogo"
     },
     {
-      'name': "FUNCIONES",
-      'href': "/funciones"
+      'name': "NOSOTROS",
+      'href': "/nosotros"
     },
     {
       'name': "¿NESESITO UNA WEB?",
@@ -41,6 +42,8 @@ const HomeNavPBar: React.FC<Props> = ({ open }) => {
              <div id='NavCot' >
                  <div id="cont-home-nav-item-ct" 
                  >
+
+                <Link href={"/contactos"}>
                    <div
                      className={`
                          text-animado-ct
@@ -48,6 +51,7 @@ const HomeNavPBar: React.FC<Props> = ({ open }) => {
                    >
                      CONTACTOS
                    </div>
+                   </Link>
                  </div>
              </div>
           </div>

@@ -9,11 +9,11 @@ const LastMss: React.FC = () => {
     <div id="HLB">
 
         <div id="HLN" className="boxA"> 
-            <div className="HLCT" style={{ ["--color" as any]: '#0c808c', ["--color1" as any]: '#00ffdb' }}>
+            <div className="HLCT" style={{ ["--color" as any]: '#5b0000', ["--color1" as any]: '#ff6e04' }}>
 Descubre nuestra historia, valores y el equipo que hará realidad tu proyecto.
             </div>
             <div className="HLCB">
-                    <HomeNavBarItem  name="NOSOTROS" href="/catalogo"/>
+                    <HomeNavBarItem  name="NOSOTROS" href="/nosotros"/>
             </div>
         </div>
 
@@ -22,16 +22,16 @@ Descubre nuestra historia, valores y el equipo que hará realidad tu proyecto.
                Analizamos la importancia de tener presencia online. Lee nuestro informe. 
             </div>
             <div className="HLCB">
-                    <HomeNavBarItem  name="¿NESESITO UNA WEB?" href="/catalogo"/>
+                    <HomeNavBarItem  name="¿NESESITO UNA WEB?" href="/info"/>
             </div>
         </div>
 
         <div id="HLO" className="boxA">
-            <div className="HLCT" style={{ ["--color" as any]: '#ff8f00', ["--color1" as any]: '#eee' }}>
+            <div className="HLCT" style={{ ["--color" as any]: '#ff8f00', ["--color1" as any]: '#820202' }}>
 ¿Tienes alguna pregunta o quieres un sitio web a tu medida? ¡Contáctanos hoy!
             </div>
             <div className="HLCB">
-                    <HomeNavBarItem  name="CONTACTO" href="/catalogo"/>
+                    <HomeNavBarItem  name="CONTACTO" href="/contacto"/>
             </div>
         </div>
     </div>
