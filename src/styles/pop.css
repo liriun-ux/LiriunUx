@@ -1,0 +1,191 @@
+/* Contenedor principal */
+#acontainer {
+}
+
+/* Botón que abre la ventana */
+#open-btn {
+  display: flex;              /* flex */
+  align-items: center;        /* items-center */
+  justify-content: center;    /* justify-center */
+  cursor: pointer;            /* cursor-pointer */
+}
+
+/* Fondo oscuro */
+#overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;   /* 👈 al fondo */
+  justify-content: center; /* sigue centrado horizontal */
+
+
+    position: absolute;
+    --fotb: #01323e;
+    --fotb1: #00ffff;
+
+    background-color: #222222a0  ;
+    color: var(--fotb1);
+    width: auto;
+    height: auto;
+    font-size: 1.4rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 2rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 3px solid #000000ff; */
+    backdrop-filter: blur(5px);
+  @media (max-width: 1204px) {
+    padding: 1.0rem;
+      font-size: 1.0rem;
+    height: auto;
+  }
+}
+
+/* Caja del popup */
+#popup {
+  background-color: white;     /* bg-white */
+  border-radius: 0.75rem;      /* rounded-xl */
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1),
+              0 4px 6px rgba(0,0,0,0.05); /* shadow-lg */
+  padding: 1rem;               /* p-4 */
+  width: auto;                /* w-64 */
+  position: relative;          /* relative */
+  display: grid;
+  align-items: center;   /* 👈 al fondo */
+  justify-content: center; /* sigue centrado horizontal */
+    justify-items: center;
+
+    --fotb: #eeeeee;
+    --fotb1: #f00;
+
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: auto;
+    height: auto;
+    font-size: 2.2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 2rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 3px solid #000000ff; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+    padding: 1.0rem;
+      font-size: 1.0rem;
+    height: auto;
+  }
+}
+
+/* Botón de cerrar */
+#close-btn {
+  position: absolute;     /* absolute */
+  cursor: pointer;
+
+    position: absolute;
+    --fotb: #01323e;
+    --fotb1: #00ffff;
+    top: -15%;
+    right: -4%;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: max-content;
+    height: auto;
+    font-size: 1.2rem;
+    font-weight:900;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding-inline: 0.5rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 3px solid #000000ff; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+    /* padding: 1.0rem; */
+      font-size: 1.0rem;
+    height: auto;
+  }
+
+}
+
+#close-btn:hover {
+    position: absolute;
+    --fotb: #330000;
+    --fotb1: #ff0000;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+}
+
+
+/* Texto del popup */
+.popup-text {
+    --fotb: #26012b;
+    --fotb1: #ff00ff;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: max-content;
+    height: auto;
+    font-size: 2.2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 1.5rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 2px solid #ffffff33; */
+    backdrop-filter: blur(05px);
+    margin-top: 1.5rem;
+  @media (max-width: 1204px) {
+    padding: 1.0rem;
+    font-size: 1.0rem;
+  }
+}
+.twe{
+--fotb: #000606;
+  --fotb1: #fdfafd;
+
+}
+.ist{
+--fotb1: #ffffff;
+  --fotb: #fdfafd;
+      background: linear-gradient(45deg,
+    #feda75,  /* amarillo */
+    #fa7e1e,  /* naranja */
+    #d62976,  /* rosado fuerte */
+    #962fbf,  /* púrpura */
+    #4f5bd5   /* azul violeta */
+  );
+  box-shadow:
+    5px 5px 15px #feda75,
+    5px 5px 15px #fa7e1e,
+    5px 5px 15px #d62976,
+    5px 5px 15px #962fbf,
+    5px 5px 15px #4f5bd5;
+
+
+}
+.fck{
+--fotb: #007cff;
+  --fotb1: #f9f6f9;
+    background: #1877F2; /* fondo azul */
+}
+#popup > *:first-child {
+  margin-top: 0;
+}

@@ -1,0 +1,49 @@
+'use client'
+// pages/index.tsx
+import InvestigacionesList from "./base";
+import RespuestaSitioWeb from "./iicio";
+
+const investigaciones = [
+  {
+    titulo: "Microempresas de Manta (Ecuador)",
+    descripcion: "Estudio 2022 que halló una correlación muy alta (ρ ≈ 0,895) entre tener un sitio web y la ventaja competitiva de microempresas.",
+    enlace: "https://www.fipcaec.com/index.php/fipcaec/article/view/741"
+  },
+  {
+    titulo: "Rentabilidad en el sector turístico de Medellín (Colombia)",
+    descripcion: "Monografía 2024 que analiza cómo las páginas web y estrategias digitales impactan en la rentabilidad del sector turístico.",
+    enlace: "https://repository.uniminuto.edu/items/e45fbfc5-9907-46b8-ac0a-77237e4836a3"
+  },
+  {
+    titulo: "Microempresas artesanales en Huánuco (Perú)",
+    descripcion: "Estudio 2015 sobre cómo la implementación de páginas web y redes sociales mejoró la publicidad y ventas de microempresas artesanales.",
+    enlace: "https://repositorio.unheval.edu.pe/handle/20.500.13080/1894"
+  },
+  {
+    titulo: "Marketing digital y crecimiento sostenible (América Latina)",
+    descripcion: "Revisión 2016–2021 que muestra la baja participación de micro y pequeñas empresas en marketing digital, limitando su éxito frente a grandes compañías.",
+    enlace: "https://revistas.unjbg.edu.pe/index.php/eyn/article/view/1246"
+  },
+  {
+    titulo: "Marketing digital y desarrollo empresarial",
+    descripcion: "Análisis sistemático (2020–2025) que resalta la importancia de sitios web, redes sociales y e-commerce para mejorar visibilidad y ventas.",
+    enlace: "https://revistapanel.org/index.php/panel/article/view/1193"
+  }
+];
+const Maro: React.FC = () => {
+    return (
+    <section className=" bg-[#26012b]">
+        <div id="tyNbase">
+            <div id="tyNOt">
+                <div id="tyNs" className="">
+                         <div className="text-black">
+                             <RespuestaSitioWeb/>
+                             <InvestigacionesList investigaciones={investigaciones} />
+                         </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    )
+}
+export default Maro;

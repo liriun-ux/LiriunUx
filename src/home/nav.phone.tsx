@@ -1,6 +1,9 @@
 "use client"
 import { HomeNavBarItem } from './navbar.item';
 import Link from 'next/link';
+import PopupExample from './pop';
+
+
 type Props = {
   open: boolean;
 };
@@ -11,7 +14,7 @@ const navigation =
       'href': "/"
     },
     {
-      'name': "CATALAGO",
+      'name': "CATÁLOGO",
       'href': "/catalogo"
     },
     {
@@ -19,7 +22,7 @@ const navigation =
       'href': "/nosotros"
     },
     {
-      'name': "¿NESESITO UNA WEB?",
+      'name': "¿NECESITO UNA WEB?",
       'href': "/info"
     }
   ]
@@ -43,15 +46,7 @@ const HomeNavPBar: React.FC<Props> = ({ open }) => {
                  <div id="cont-home-nav-item-ct" 
                  >
 
-                <Link href={"/contactos"}>
-                   <div
-                     className={`
-                         text-animado-ct
-                     `}
-                   >
-                     CONTACTOS
-                   </div>
-                   </Link>
+                    <PopupExample/>
                  </div>
              </div>
           </div>

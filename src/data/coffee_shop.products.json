@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Espresso",
+    "description": "Café concentrado y fuerte, perfecto para comenzar el día.",
+    "price": "7.00 Bs",
+    "ingredientes": ["Café molido", "Agua"]
+  },
+  {
+    "title": "Americano",
+    "description": "Espresso diluido en agua caliente, suave y ligero.",
+    "price": "8.00 Bs",
+    "ingredientes": ["Espresso", "Agua"]
+  },
+  {
+    "title": "Cappuccino",
+    "description": "Café con una mezcla de leche vaporizada y espuma cremosa.",
+    "price": "10.00 Bs",
+    "ingredientes": ["Espresso", "Leche vaporizada", "Espuma de leche"]
+  },
+  {
+    "title": "Latte",
+    "description": "Café suave y cremoso con más leche que espuma.",
+    "price": "9.00 Bs",
+    "ingredientes": ["Espresso", "Leche vaporizada"]
+  },
+  {
+    "title": "Mocha",
+    "description": "Café con chocolate y leche vaporizada, dulce y cremoso.",
+    "price": "12.00 Bs",
+    "ingredientes": ["Espresso", "Leche vaporizada", "Chocolate"]
+  },
+  {
+    "title": "Macchiato",
+    "description": "Espresso manchado con un poco de espuma de leche.",
+    "price": "8.50 Bs",
+    "ingredientes": ["Espresso", "Espuma de leche"]
+  },
+  {
+    "title": "Flat White",
+    "description": "Café con leche suave y cremoso, muy popular en Australia.",
+    "price": "11.00 Bs",
+    "ingredientes": ["Espresso", "Leche vaporizada"]
+  },
+  {
+    "title": "Affogato",
+    "description": "Café servido con una bola de helado de vainilla.",
+    "price": "14.00 Bs",
+    "ingredientes": ["Espresso", "Helado de vainilla"]
+  },
+  {
+    "title": "Café con Leche",
+    "description": "Café mezclado con leche caliente, popular en desayunos.",
+    "price": "8.00 Bs",
+    "ingredientes": ["Café", "Leche"]
+  },
+  {
+    "title": "Irish Coffee",
+    "description": "Café con whisky y crema, ideal para días fríos.",
+    "price": "18.00 Bs",
+    "ingredientes": ["Café", "Whisky", "Crema"]
+  },
+  {
+    "title": "Frappé",
+    "description": "Café frío batido con hielo, refrescante y espumoso.",
+    "price": "10.50 Bs",
+    "ingredientes": ["Café", "Hielo", "Azúcar"]
+  },
+  {
+    "title": "Caramel Macchiato",
+    "description": "Café con leche y caramelo, dulce y delicioso.",
+    "price": "13.00 Bs",
+    "ingredientes": ["Espresso", "Leche vaporizada", "Caramelo"]
+  },
+  {
+    "title": "Café Turco",
+    "description": "Café fuerte y espeso, preparado a fuego lento.",
+    "price": "12.00 Bs",
+    "ingredientes": ["Café molido fino", "Agua"]
+  },
+  {
+    "title": "Café Vienés",
+    "description": "Café con crema batida, típico de Viena.",
+    "price": "13.50 Bs",
+    "ingredientes": ["Espresso", "Crema batida"]
+  },
+  {
+    "title": "Doppio",
+    "description": "Doble shot de espresso para un sabor más intenso.",
+    "price": "9.00 Bs",
+    "ingredientes": ["Doble espresso"]
+  },
+  {
+    "title": "Café Bombón",
+    "description": "Café con leche condensada, popular en España.",
+    "price": "10.00 Bs",
+    "ingredientes": ["Espresso", "Leche condensada"]
+  },
+  {
+    "title": "Ristretto",
+    "description": "Espresso más corto y concentrado, intenso en sabor.",
+    "price": "7.50 Bs",
+    "ingredientes": ["Espresso concentrado"]
+  },
+  {
+    "title": "Lungo",
+    "description": "Espresso diluido con más agua, suave y prolongado.",
+    "price": "8.50 Bs",
+    "ingredientes": ["Espresso", "Agua"]
+  },
+  {
+    "title": "Café Cortado",
+    "description": "Espresso con un toque de leche para suavizar el sabor.",
+    "price": "8.00 Bs",
+    "ingredientes": ["Espresso", "Leche"]
+  },
+  {
+    "title": "Café Helado",
+    "description": "Café servido con hielo, refrescante y delicioso.",
+    "price": "10.00 Bs",
+    "ingredientes": ["Café", "Hielo"]
+  }
+]

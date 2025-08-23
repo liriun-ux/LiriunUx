@@ -12,14 +12,14 @@ export default function Home() {
     const [showContent, setShowContent] = useState(false);
       useEffect(() => {
     if (!showContent) {
-      document.body.style.overflow = "hidden";
+      // document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "auto";
-      document.body.style.overflowY = "scroll";
+      // document.body.style.overflow = "auto";
+      // document.body.style.overflowY = "scroll";
     }
   }, [showContent]);
   return (
-    <div id="Home" className="HomeFor">
+    <div id="" className="">
   {/* Fondo */}
   <div id="HBack" >
     <div className="HBR" id="HBRN1" style={{ background: '#00ff00', left: '10%', top: '10%' }}></div>
@@ -31,7 +31,7 @@ export default function Home() {
   </div>
       {!showContent && <SplashScreen onFinish={() => setShowContent(true)} />}
       {showContent && (
-       <div className="relative w-screen log-cont flex-col justify-center items-center HomeFor">
+       <div className="relative  log-cont flex-col justify-center items-center ">
           <NewHomeNavBar/>
           <HeroHome/>
           <InfoHome/>

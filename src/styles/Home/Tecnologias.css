@@ -183,10 +183,11 @@
   /*   text-decoration-line: underline; */
   /* text-decoration-color: #970202; */
   @media (max-width: 1204px) {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     width: 100%;
     height: auto;
-    padding: 1.5rem;
+    padding: 1.0rem;
+    padding-bottom: 1.5rem;
   }
 }
 

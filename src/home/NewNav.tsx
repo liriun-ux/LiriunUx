@@ -4,6 +4,9 @@ import { useState } from 'react';
 import { HomeNavBarItem } from './navbar.item';
 import HomeNavPBar from './nav.phone';
 import Link from 'next/link';
+import PopupExample from './pop';
+
+
 const navigation =
   [
     {
@@ -11,7 +14,7 @@ const navigation =
       'href': "/"
     },
     {
-      'name': "CATALAGO",
+      'name': "CATÁLOGO",
       'href': "/catalogo"
     },
     {
@@ -19,7 +22,7 @@ const navigation =
       'href': "/nosotros"
     },
     {
-      'name': "¿NESESITO UNA WEB?",
+      'name': "¿NECESITO UNA WEB?",
       'href': "/info"
     }
   ]
@@ -29,7 +32,7 @@ const NewHomeNavBar: React.FC = () => {
   const toggleMenu = () => {
     if(isOpen){
       setOpen(true)
-    document.body.style.overflow = "auto";
+    // document.body.style.overflow = "auto";
 
       setTimeout(()=>{
         
@@ -39,11 +42,11 @@ const NewHomeNavBar: React.FC = () => {
       }
       else{
         setIsOpen(!isOpen);
-document.body.style.overflow = "hidden";
+// document.body.style.overflow = "hidden";
       }
   };
   return (
-      <div id='base-nav' className='w-screen h-1/5 bg-amber-400/0 z-40  '>
+      <div id='base-nav' className=' h-1/5 bg-amber-400/0 z-40  '>
         {//walker }   
         }
 
@@ -75,15 +78,7 @@ document.body.style.overflow = "hidden";
             <div id='nav-contacts' className='flex'>
                 <div id="cont-home-nav-item-ct" 
                 >
-                <Link href={"/info"}>
-                  <div
-                    className={`
-                        text-animado-ct
-                    `}
-                    >
-                    CONTACTOS
-                  </div>
-                  </Link>
+                    <PopupExample/>
                 </div>
             </div>
 

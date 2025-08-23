@@ -1,14 +1,19 @@
+/* NOTE: last  note */
 @import "tailwindcss";
 @import "./logo_init.css";
 @import "./navbar.css";
 
 @import "./Home.css";
 @import "./Home/Info.css";
+@import "./pop.css";
 @import "./Home/LastMss.css";
 @import "./Home/Tecnologias.css";
 @import "./WEB/css/panchang.css";
+@import "./Nosotros/base.css";
+@import "./Nosotros/mision.css";
 
 :root {
+    --spacing: 0.25rem;
   --background: #1e323c;
   --foreground: #ffffff;
         --rogo: #4A6C7B;
@@ -19,27 +24,16 @@
 }
 
 
+.newSection {
+  scroll-snap-align: center;
+}
 
 body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  @media (max-width: 1204px) {
-      /* background: #4A6C7B; */
-  }
 }
-/* Móviles */
    
 
-*,
-*:before,
-*:after {
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
-  border:0;
-  vertical-align:baseline;
-  font-weight:inherit
-}
 
 p, li {
   line-height: 1.5rem;
@@ -50,26 +44,193 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+  width: 100%;
+  /* scroll-snap-type: y mandatory; */
+  overflow-y: auto;
+  /* scroll-behavior: smooth; */
+  /* scrollbar-gutter: stable; */
+      scroll-snap-type: y mandatory;
+    /* background-color: #1d2430; */
 }
 .HomeFor {
     /* background-color: #1d2430; */
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      scroll-snap-type: y mandatory;
-      overflow-y: scroll;
-      scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+      /* margin: 0; */
+      /* padding: 0; */
+      /* height: 100%; */
+      /* scroll-snap-type: y mandatory; */
+      /* overflow: auto; */
+      /* scroll-behavior: smooth; */
+      /* scroll-snap-type: y mandatory; */
 }
 section {
-
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   scroll-snap-align: center;
   scroll-snap-stop: always;
+  width: 100%
+}
+
+
+@import "tailwindcss";
+
+@theme {
+  --spacing: 0.25rem; /* base = 0.25rem */
+  /* 🎨 Colores personalizados */
+  --color-color0: var(--color0);
+  --color-color1: var(--color1);
+  --color-color2: var(--color2);
+  --color-color3: var(--color3);
+  --color-color4: var(--color4);
+  --color-color5: var(--color5);
+  --color-color6: var(--color6);
+  --color-color7: var(--color7);
+  --color-color8: var(--color8);
+  --color-color9: var(--color9);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-darkWood: #3B2F2F;
+  --color-coffee: #6F4E37;
+  --color-cream: #F5F5DC;
+  --color-latte: #C19A6B;
+  --color-latteLight: #d1bA8B;
+  --color-bottleGreen: #556B2F;
+  --color-vintageGold: #D4AF37;
+
+  /* 📱 Breakpoints basados en altura */
+  /* 📱 Breakpoints basados en altura */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+
+  /* 🔤 Fuente */
+  --font-roboto: Roboto, sans-serif;
+
+  /* 🎞️ Animaciones */
+  @keyframes slideIn {
+    0% { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+  }
+  @keyframes slideInR {
+    0% { transform: translateX(100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+  }
+  @keyframes top {
+    0% { transform: translateY(-130%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  @keyframes topOut {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-140%); opacity: 0; }
+  }
+  @keyframes slideInYA {
+    0% { transform: translateY(100%); opacity: 0; }
+    30%,70% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(100%); opacity: 0; }
+  }
+  @keyframes slideInYB {
+    0% { transform: translateY(-100%); opacity: 0; }
+    30%,70% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-100%); opacity: 0; }
+  }
+  @keyframes slideInXA {
+    0% { transform: translateX(100%); opacity: 0; }
+    30%,70% { transform: translateX(0); opacity: 1; }
+    100% { transform: translateX(100%); opacity: 0; }
+  }
+  @keyframes slideInXB {
+    0% { transform: translateX(-100%); opacity: 0; }
+    30%,70% { transform: translateX(0); opacity: 1; }
+    100% { transform: translateX(-100%); opacity: 0; }
+  }
+  @keyframes bottom_rigth_to_top_left {
+    0% { transform: translateX(-100%) translateY(100%); opacity: 0; }
+    100% { transform: translateX(0) translateY(0); opacity: 1; }
+  }
+  @keyframes top_rigth_to_bottom_left {
+    0% { transform: translateX(-100%) translateY(-100%); opacity: 0; }
+    100% { transform: translateX(0) translateY(0); opacity: 1; }
+  }
+  @keyframes rebote {
+    0% { transform: translateY(-100%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  @keyframes nextInit {
+    0% { transform: translateX(0); opacity: 1; }
+    100% { transform: translateX(100%); opacity: 0; }
+  }
+  @keyframes nextEnd {
+    0% { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+  }
+  @keyframes prevInit {
+    0% { transform: translateX(0); opacity: 1; }
+    100% { transform: translateX(-100%); opacity: 0; }
+  }
+  @keyframes prevEnd {
+    0% { transform: translateX(100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+  }
+
+  /* ⏯️ Clases de animación */
+  --animate-Top: top 0.5s ease forwards;
+  --animate-TopOut: topOut 0.5s ease forwards;
+  --animate-prevInit: prevInit 0.5s ease forwards;
+  --animate-prevEnd: prevEnd 0.5s ease forwards;
+  --animate-nextInit: nextInit 0.5s ease forwards;
+  --animate-nextEnd: nextEnd 0.5s ease forwards;
+  --animate-rebote: rebote 1s ease forwards;
+  --animate-slideIn: slideIn 1s ease forwards;
+  --animate-slideInR: slideInR 1s ease forwards;
+  --animate-slideInYA: slideInYA 2s ease forwards;
+  --animate-slideInYB: slideInYB 2s ease forwards;
+  --animate-slideInXA: slideInXA 2s ease forwards;
+  --animate-slideInXB: slideInXB 2s ease forwards;
+  --animate-slideBRtoTF: bottom_rigth_to_top_left 1s ease forwards;
+  --animate-slideTRtoBF: top_rigth_to_bottom_left 1s ease forwards;
+  --breakpoint-lg: 1024px;
+}
+@property --spacing {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 0.25rem;
+}
+
+:root {
+  --spacing: 0.25rem; }
+  
+
+
+/* .p-7 { */
+/* 	padding: calc(var(--spacing) * 7); */
+/* } */
+  /* .lg\:p-16 { */
+  /*   @media (width >= 1024px) { */
+  /*     padding: calc(var(--spacing) * 16); */
+  /*   } */
+  /* } */
+
+@import "tailwindcss";
+
+/* Registramos la propiedad custom para navegadores que la requieren */
+@property --spacing {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 0.25rem;
+}
+
+/* Definimos la base de Tailwind en @theme */
+@theme {
+  --spacing: 0.25rem; /* cada “1” equivale a 0.25rem (4px) */
+  --breakpoint-sm: 640px;
+  --breakpoint-lg: 1024px;
+}
+
+/* (Opcional) Reset básico para asegurar que se aplique */
+html, body {
+  padding: 0;
+  margin: 0;
 }
 

@@ -24,6 +24,7 @@ const Tecnologias: React.FC = () => {
             <div id="HTCB">
                 <div id="HTCBT">
     <span>Dale forma a tu visión </span><br/>
+
 Explora nuestro catálogo de secciones únicas y descubre cómo tu página puede lucir profesional, moderna y atractiva.
                 </div>
                 <div id="HTCBB">

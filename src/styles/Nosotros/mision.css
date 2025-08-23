@@ -1,0 +1,253 @@
+
+#aNOt{
+    position:relative ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 85%;
+    width: 100%;
+}
+#aNp{
+
+    position: absolute;
+--fotb: #ffffff;
+  --fotb1: #000;
+    bottom: -10%;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: 60%;
+    height: auto;
+    font-size: 2.2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 2rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 3px solid #000000ff; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+    padding: 1.3rem;
+      font-size: 1.1rem;
+  }
+}
+#aNq{
+
+      position: absolute;
+      top: 15%;
+--fotb: #5b0733;
+  --fotb1: #f4015c;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: auto;
+    height: auto;
+    font-size: 2.2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 1rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 2px solid #ffffff33; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+    padding: 1.3rem;
+      font-size: 1.1rem;
+  }
+}
+
+/*NOTE: vision*/
+
+#eNp{
+
+    position: absolute;
+--fotb: #2a0435;
+  --fotb1: #f9b6ff;
+    bottom: -10%;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: 60%;
+    height: auto;
+    font-size: 2.2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 2rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 3px solid #000000ff; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+    padding: 1.5rem;
+      font-size: 1.1rem;
+  }
+}
+#eNq{
+
+      position: absolute;
+      top: 15%;
+--fotb: #d79fd6;
+  --fotb1: #eb0bf2;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: auto;
+    height: auto;
+    font-size: 2.2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 1rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 2px solid #ffffff33; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+    padding: 1.3rem;
+      font-size: 1.1rem;
+  }
+}
+/*NOTE: caracteristicas*/
+
+#rNp{
+
+    position: absolute;
+--fotb: #ece9e3;
+  --fotb1: #59590d;
+    bottom: -15%;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: 60%;
+    height: auto;
+    font-size: 190%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 1rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 3px solid #000000ff; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+    padding: 0.5rem;
+      font-size: 1.0rem;
+  }
+}
+#rNq{
+
+      position: absolute;
+      top: 5%;
+--fotb: #ece9e3;
+  --fotb1: #59590d;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: auto;
+    height: auto;
+    font-size: 2.2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 1rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 2px solid #ffffff33; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+    padding: 1.3rem;
+      font-size: 1.1rem;
+  }
+}
+
+.aHTTBT{
+    display: block;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+
+/*NOTE: por que elegirnos*/
+
+#tNp{
+
+    position: absolute;
+--fotb: #ccc5b9;
+  --fotb1: #000;
+    bottom: -15%;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: 60%;
+    height: auto;
+    font-size: 2.2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 3rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 3px solid #000000ff; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+    padding: 1.0rem;
+      font-size: 1.1rem;
+  }
+}
+#tNq{
+
+      position: absolute;
+      top: 15%;
+--fotb: #ccc5b9;
+  --fotb1: #eb5e28;
+    background-color: var(--fotb);
+    color: var(--fotb1);
+    width: auto;
+    height: auto;
+    font-size: 2.2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: var(--fotb) 5px 5px 15px;
+    padding: 2rem;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
+    /* border: 2px solid #ffffff33; */
+    backdrop-filter: blur(05px);
+  @media (max-width: 1204px) {
+    padding: 1.3rem;
+      font-size: 1.1rem;
+  }
+}

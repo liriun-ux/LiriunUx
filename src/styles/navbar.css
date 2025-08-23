@@ -1,6 +1,7 @@
 #base-nav{
     height: 4.5rem;
     position: fixed;
+    width: 100%;
   @media (max-width: 1204px) {
 
     height: 3.0rem;
