@@ -411,7 +411,7 @@
 
 #NavPhoneItems li .cont-home-nav-item-fo
 {
-    width: 80%;
+    width: 100%;
 }
 
 @keyframes slideInLeftIN {

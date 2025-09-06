@@ -19,12 +19,17 @@ import CoffeeShopInfoCard from "../presentations/coffee_shop/coffee_shop.InfoCar
 import GardenNavBar from "../presentations/garden/garden.NavBar";
 import GardenInfoCard from "../presentations/garden/garden.InfoCard";
 
+
+import NavSmartphones from "@/catalogo/phones/nav.phone";
+import NavPollos from "@/catalogo/pollos/nav.pollos";
+
 // El componente que recibirá el string y retornará otro componente
 interface DynamicElementsProductsProps {
   componentType: string;
 }
 
 const DynamicElementsProducts: React.FC<DynamicElementsProductsProps> = ({ componentType }) => {
+    console.log(componentType);
   switch (componentType) {
     case 'RoastBarbecue':
       return (
@@ -86,6 +91,19 @@ const DynamicElementsProducts: React.FC<DynamicElementsProductsProps> = ({ compo
         <>
           <GardenNavBar/>
           <GardenInfoCard/>
+        </>
+    );
+    case 'Smartphones':
+      return (
+        <>
+           <NavSmartphones/>
+        </>
+    );
+    case 'Pollos':
+      return (
+        <>
+           <NavPollos/>
+          <CoffeeInfoCard />
         </>
     );
     default:

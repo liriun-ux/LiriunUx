@@ -3,8 +3,8 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { Electronic,  Coffee, CoffeePrd, StationeryStore } from './ProductsExport';
 import DynamicElementsProducts from './DynamicElementProduct';
 import {  WoodFurniture,  Garden, CoffeeShop } from '../presentations/PresenntationExports';
-import DynamicElementsPresentations from '../presentations/DynamicElementPresentation';
-
+import { Smartphones } from '@/catalogo/phones/phones';
+import { Pollos } from '@/catalogo/pollos/pollos';
 
 const animationList: { [key: string]: string } = {
   'Electronic': 'animate-slideInR',
@@ -15,7 +15,9 @@ const animationList: { [key: string]: string } = {
   'Garden': 'animate-slideInR',
   'CoffeeShop': 'animate-slideInR',
   'CoffeeShopPrd': 'animate-slideInR',
-  'CoffeeShoG': 'animate-slideInR'
+  'CoffeeShoG': 'animate-slideInR',
+  'Smartphones':'animate-slideInR',
+  'Pollos':'animate-slideInR',
 };
 
 const HandleProducts = () => {
@@ -70,13 +72,15 @@ const HandleProducts = () => {
   return (
     <div>
       {_DynamicElements}
-      <Coffee ref={(el) => { sectionRefs.current[0] = el; }} />
-      <CoffeePrd ref={(el) => { sectionRefs.current[2] = el; }} />
-      <Electronic ref={(el) => { sectionRefs.current[3] = el; }} />
-      <StationeryStore ref={(el) => { sectionRefs.current[4] = el; }} />
-      <CoffeeShop ref={(el) => { sectionRefs.current[5] = el; }} />
-      <WoodFurniture ref={(el) => { sectionRefs.current[6] = el; }} />
-      <Garden ref={(el) => { sectionRefs.current[7] = el; }} />
+      <Smartphones ref={(el) => { sectionRefs.current[0] = el; }} />
+      <Pollos ref={(el) => { sectionRefs.current[1] = el; }} />
+      <Coffee ref={(el) => { sectionRefs.current[2] = el; }} />
+      <CoffeePrd ref={(el) => { sectionRefs.current[3] = el; }} />
+      <Electronic ref={(el) => { sectionRefs.current[4] = el; }} />
+      <StationeryStore ref={(el) => { sectionRefs.current[5] = el; }} />
+      <CoffeeShop ref={(el) => { sectionRefs.current[6] = el; }} />
+      <WoodFurniture ref={(el) => { sectionRefs.current[7] = el; }} />
+      <Garden ref={(el) => { sectionRefs.current[8] = el; }} />
     </div>
   );
 };

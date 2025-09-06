@@ -11,6 +11,7 @@
 @import "./WEB/css/panchang.css";
 @import "./Nosotros/base.css";
 @import "./Nosotros/mision.css";
+@import "./catalogo/phone.css";
 
 :root {
     --spacing: 0.25rem;
