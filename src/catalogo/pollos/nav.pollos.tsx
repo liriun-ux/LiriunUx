@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { FaTwitter, FaFacebook, FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
 import { ElectronicNavItem } from '@/components/presentations/Electronic/electronic.NavItem';
-
+// import { SmaNavBar } from '../phones/nav.item';
+import { PolloNavBar } from './nav.items';
 const navigation =
   [
     {
@@ -45,12 +46,70 @@ const NavPollos: React.FC =() => {
       }
   };
 
+  const style_icons=" hover:translate-y-[-5px] transition duration-100 ease-in-out PSma-tx";
   return (
-    <nav className=" text-white fixed  w-full z-10   opacity-0 animate-slideIn ">
-        <div>
-            pollo
+    <div id='PNNsb' className=" opacity-0 animate-slideIn">
+        <div id='BNPDS'>
+
+            <div id='NPtx'>Pollos Feliz</div>
+
+        {/* Botón hamburguesa solo en pantallas pequeñas */}
+        <div className="PBTOIO">
+          <button onClick={toggleMenu} className="PBtxt">
+            {isOpen ? <FaTimes /> : <FaBars />} {/* Alterna entre el icono de abrir/cerrar */}
+          </button>
         </div>
-    </nav>
+
+            <div id='Snav-item' >
+                <ul  id='Snav-item-b' >
+                    {navigation.map((item) =>
+                      <li key={item.name}>
+                        <PolloNavBar name={item.name} href={item.href}/>
+                      </li>)
+                    }
+                </ul>
+            </div>
+
+            <div id='Snav-cont'>
+        <div className="Sri IPlooo">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
+              <FaTwitter />
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
+              <FaFacebook />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
+              <FaInstagram />
+            </a>
+        </div>
+
+            </div>
+
+      {/* Menú desplegable en pantallas pequeñas */}
+      {isOpen && (
+        <div className={`PllSope animate-Top ${open && 'animate-TopOut'}`}>
+          <ul className=" Sjoio">
+            {navigation.map((item) =>
+              <li key={item.name}>
+                <PolloNavBar  name={item.name} href={item.href}/>
+              </li>)
+            }
+            </ul>
+        <div className="Sri IPlooo">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
+              <FaTwitter />
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
+              <FaFacebook />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
+              <FaInstagram />
+            </a>
+        </div>
+        </div>
+      )}
+        </div>
+    </div>
   );
 };
 

@@ -103,7 +103,6 @@ const DynamicElementsProducts: React.FC<DynamicElementsProductsProps> = ({ compo
       return (
         <>
            <NavPollos/>
-          <CoffeeInfoCard />
         </>
     );
     default:
