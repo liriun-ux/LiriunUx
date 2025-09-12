@@ -1,20 +1,20 @@
 'use client'
 import Image from 'next/image';
-import React, { useState, useRef } from 'react';
+import React from 'react';
 import PollosHeroCarr from './pollos.hero';
 
 export const Pollos = React.forwardRef<HTMLDivElement>((props, ref) => {
 
 
   const slides = [
-    { img: "/img/coffee/prd/pexels-chevanon-312418.jpg", title: "Primera Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos daw awd awd wa awd awd awd awdaw dwad aw." },
-    { img: "/img/coffee/prd/pexels-evgeny-tchebotarev-1058775-2187601.jpg", title: "Segunda Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-    { img: "/img/coffee/prd/pexels-jayoke-851555.jpg", title: "Tercera Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-    { img: "/img/coffee/prd/pexels-ngqah83-885021.jpg", title: "Cuarta Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-    { img: "/img/coffee/prd/pexels-nurseryart-373639.jpg", title: "Quinte Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-    { img: "/img/coffee/prd/pexels-picturemechaniq-1749303.jpg", title: "Sexta Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-    { img: "/img/coffee/prd/pexels-tyler-nix-1259808-2396220.jpg", title: "Septima Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-  ];
+    { img: "/img/pollo/img1.png", title: "Primera Diapositiva", description: "Introduce tu sitio web y comunica de inmediato la propuesta de valor a tus visitantes." },
+    { img: "/img/pollo/img2.png", title: "Segunda Diapositiva", description: "Destaca tus productos o servicios más importantes de forma visual y clara." },
+    { img: "/img/pollo/img3.png", title: "Tercera Diapositiva", description: "Muestra características clave que diferencian tu negocio de la competencia." },
+    { img: "/img/pollo/img4.png", title: "Cuarta Diapositiva", description: "Comparte testimonios de clientes o casos de éxito que generen confianza." },
+    { img: "/img/pollo/img5.png", title: "Quinta Diapositiva", description: "Resalta promociones, novedades o noticias importantes de tu empresa." },
+    { img: "/img/pollo/img6.jpg", title: "Sexta Diapositiva", description: "Invita a tus visitantes a interactuar, suscribirse o conocer más sobre tu negocio." },
+    { img: "/img/pollo/img7.jpg", title: "Séptima Diapositiva", description: "Cierra con un llamado a la acción claro que dirija a tus visitantes a la siguiente sección." }
+];
   return (
     <div
       id="Pollos"
@@ -66,7 +66,8 @@ export const Pollos = React.forwardRef<HTMLDivElement>((props, ref) => {
             </div>
             <div id='Pstx' >
                 <div>
-            te esperamos con un <span className='StxS '>40%</span> de descuento en tu primer pedido
+
+        ¡Aprovecha un <span className='StxS '>40%</span> de descuento en tu primer pedido! Te esperamos para que disfrutes de nuestros productos.
                 </div>
             </div>
             <div id='Psim'>

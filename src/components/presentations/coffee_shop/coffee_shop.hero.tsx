@@ -41,6 +41,32 @@ const CoffeeHeroCarousel: React.FC<CoffeeHeroCarouselProps> = ({ slides, handleB
 
     return () => clearInterval(interval); // Limpia el intervalo cuando el componente se delgonta
   }, [handlePrev]);
+
+
+  // 🔹 Aquí creamos el array de elementos Image
+  const images = [];
+  for (let i = 0; i < slides.length; i++) {
+    images.push(
+<div
+        key={i}
+        id={slides[i].title} // id con el título del slide
+        className={`absolute inset-0 transition-opacity duration-700 ${
+          i === currentIndex ? "opacity-100" : "opacity-0"
+        }`}
+      >
+        <Image
+          src={slides[i].img}
+          alt={slides[i].title}
+          fill
+          style={{ objectFit: "cover" }}
+          className="rounded-lg"
+          loading="eager"
+          // unoptimized
+        />
+      </div>
+    );
+  }
+
   const styleButton=" rounded-full  bg-darkWood/70 text-vintageGold hover:bg-vintageGold/70 hover:text-darkWood transition duration-300";
   return (
     <>
@@ -58,15 +84,8 @@ const CoffeeHeroCarousel: React.FC<CoffeeHeroCarouselProps> = ({ slides, handleB
       ${direction === "NextInit" && ' animate-nextInit '} ${direction === "NextEnd" && ' animate-nextEnd '} 
       ${direction === "PrevInit" && ' animate-prevInit '} ${direction === "PrevEnd" && ' animate-prevEnd '}`}>
         {/* Imagen de fondo */}
-        <Image
-          src={slides[currentIndex].img}
-          alt={slides[currentIndex].title}
-          fill
-          style={{ objectFit: 'cover' }}
-          quality={100}
-          className="-z-10 rounded-lg"
-        />
 
+        {images}
         {/* Contenedor del título y descripción */}
         <div className="flex flex-col sm:flex-row justify-between items-center lg:flex-row backdrop-blur-sm bg-darkWood/50 rounded-lg w-full p-2 lg:p-5">
           <div className="flex flex-col">

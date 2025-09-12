@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { FaTwitter, FaFacebook, FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
 import { WoodFurnitureNavItem } from './wood_furniture.NavItem';
+import Link from 'next/link';
 
 
 const navigation =
@@ -56,9 +57,9 @@ const WoodFurnitureNavBar: React.FC =() => {
 />
         {/* Título centrado en móviles */}
         <div className="text-amber-50 text-3xl font-bold  mx-auto lg:mx-0 px-8 " >
-          <a href="/" className="">
+          <Link href="/" className="">
             Mysite
-          </a>
+          </Link>
         </div>
 
         {/* Botón hamburguesa solo en pantallas pequeñas */}
@@ -80,15 +81,15 @@ const WoodFurnitureNavBar: React.FC =() => {
         </div>
 
         <div className="hidden lg:flex space-x-4 px-8">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
               <FaTwitter />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
+            </Link>
+            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
               <FaFacebook />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
+            </Link>
+            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
               <FaInstagram />
-            </a>
+            </Link>
         </div>
       </div>
 
@@ -113,15 +114,15 @@ const WoodFurnitureNavBar: React.FC =() => {
             }
             </ul>
           <div className="flex space-x-4 px-4 pb-2">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
               <FaTwitter />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
+            </Link>
+            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
               <FaFacebook />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
+            </Link>
+            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
               <FaInstagram />
-            </a>
+            </Link>
           </div>
           </div>
         </div>

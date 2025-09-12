@@ -15,12 +15,12 @@ const puntos: Punto[] = [
   {
     titulo: "2. Credibilidad y profesionalismo",
     descripcion:
-      "Los clientes confían más en empresas con presencia online formal. Una página transmite seriedad y confianza."
+      "Los clientes confían más en empresas con presencia en línea formal. Una página transmite seriedad y confianza."
   },
   {
     titulo: "3. Marketing y ventas",
     descripcion:
-      "Puedes mostrar productos, servicios y promociones 24/7, sin limites"
+      "Puedes mostrar productos, servicios y promociones 24/7, sin límites."
   },
   {
     titulo: "4. Competitividad",

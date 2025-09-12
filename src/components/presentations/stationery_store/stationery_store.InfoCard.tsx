@@ -13,7 +13,7 @@ const StationeryStoreInfoCard: React.FC = () => {
   };
   if (!isVisible) return null; // Si no es visible, no renderiza nada
   return (
-    <div className={`hidden h-sm:block lg:block bg-green-100/80  fixed lg:bottom-4 bottom-1 right-1 lg:right-4 w-60 lg:w-80 shadow-lg rounded-lg lg:p-4 px-2 z-20 opacity-0  font-mono ${isExiting ? ' animate-nextInit ' : ' animate-slideTRtoBF '}`}>
+    <div className={`hidden h-sm:block lg:block backdrop-blur-md shadow-gray-700 fixed lg:bottom-4 bottom-1 right-1 lg:right-4 w-60 lg:w-80 shadow-lg rounded-lg lg:p-4 px-2 z-20 opacity-0  font-mono ${isExiting ? ' animate-nextInit ' : ' animate-slideTRtoBF '}`}>
       {/* Botón de cierre */}
       <button 
         onClick={handleClose} // Cambia el estado a false al hacer clic
@@ -22,9 +22,8 @@ const StationeryStoreInfoCard: React.FC = () => {
       >
         &times; {/* X simbolizando cerrar */}
       </button>
-      <h2 className="text-lg lg:text-2xl font-semibold my-1 text-green-900 ">Paginas para Bazares</h2>
-      <p className="text-sm lg:text-lg  lg:mb-4 text-green-800 ">Esta es una parte de como podria ser una pagina referente a bazar </p>
-      <a href="#more-info" className="text-green-600 hover:underline  ">Cotizar</a>
+      <h2 className="text-lg lg:text-2xl font-semibold my-1 text-green-950 ">Título de la tarjeta</h2>
+      <p className="text-sm lg:text-lg  lg:mb-4 text-blackcapacitores ">Este es un ejemplo de  una tarjeta flotante pequeña, ideal para mostrar información breve y clara.</p>
     </div>
   );
 };

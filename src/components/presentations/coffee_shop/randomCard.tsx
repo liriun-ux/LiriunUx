@@ -15,7 +15,6 @@ const CoffeeShopRandomCard: React.FC = () => {
 
       <h2 className="text-lg lg:text-2xl font-semibold mb-2 text-vintageGold ">{randomItem.title}</h2>
       <p className="text-sm lg:text-lg  lg:mb-4 text-latteLight ">{randomItem.description}</p>
-      <a href="#more-info" className="text-white hover:underline ">Cotizar</a>
     </div>
   );
 };

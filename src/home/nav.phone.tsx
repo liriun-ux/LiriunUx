@@ -1,6 +1,5 @@
 "use client"
 import { HomeNavBarItem } from './navbar.item';
-import Link from 'next/link';
 import PopupExample from './pop';
 
 

@@ -23,7 +23,6 @@ const WoodFurnitureRandomCard: React.FC = () => {
 
       <h2 className="text-lg lg:text-2xl font-semibold mb-2 text-amber-900 ">{randomItem.title}</h2>
       <p className="text-sm lg:text-lg  lg:mb-4 text-black ">{randomItem.description}</p>
-      <a href="#more-info" className="text-amber-50 hover:underline ">Cotizar</a>
     </div>
   );
 };

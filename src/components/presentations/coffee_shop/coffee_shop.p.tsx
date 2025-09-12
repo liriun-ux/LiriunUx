@@ -6,15 +6,16 @@ import CoffeeHeroCarousel from './coffee_shop.hero';
 
 export const CoffeeShop = React.forwardRef<HTMLDivElement>((props, ref) => {
 
-  const slides = [
-    { img: "/img/coffee/prd/pexels-chevanon-312418.jpg", title: "Primera Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos daw awd awd wa awd awd awd awdaw dwad aw." },
-    { img: "/img/coffee/prd/pexels-evgeny-tchebotarev-1058775-2187601.jpg", title: "Segunda Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-    { img: "/img/coffee/prd/pexels-jayoke-851555.jpg", title: "Tercera Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-    { img: "/img/coffee/prd/pexels-ngqah83-885021.jpg", title: "Cuarta Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-    { img: "/img/coffee/prd/pexels-nurseryart-373639.jpg", title: "Quinte Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-    { img: "/img/coffee/prd/pexels-picturemechaniq-1749303.jpg", title: "Sexta Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-    { img: "/img/coffee/prd/pexels-tyler-nix-1259808-2396220.jpg", title: "Septima Diapositiva", description: "Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos." },
-  ];
+  const slides = 
+[
+    { img: "/img/coffee/prd/pexels-chevanon-312418.jpg", title: "Primera Diapositiva", description: "Introduce tu sitio web y comunica de inmediato la propuesta de valor a tus visitantes." },
+    { img: "/img/coffee/prd/pexels-evgeny-tchebotarev-1058775-2187601.jpg", title: "Segunda Diapositiva", description: "Destaca tus productos o servicios más importantes de forma visual y clara." },
+    { img: "/img/coffee/prd/pexels-jayoke-851555.jpg", title: "Tercera Diapositiva", description: "Muestra características clave que diferencian tu negocio de la competencia." },
+    { img: "/img/coffee/prd/pexels-ngqah83-885021.jpg", title: "Cuarta Diapositiva", description: "Comparte testimonios de clientes o casos de éxito que generen confianza." },
+    { img: "/img/coffee/prd/pexels-nurseryart-373639.jpg", title: "Quinta Diapositiva", description: "Resalta promociones, novedades o noticias importantes de tu empresa." },
+    { img: "/img/coffee/prd/pexels-picturemechaniq-1749303.jpg", title: "Sexta Diapositiva", description: "Invita a tus visitantes a interactuar, suscribirse o conocer más sobre tu negocio." },
+    { img: "/img/coffee/prd/pexels-tyler-nix-1259808-2396220.jpg", title: "Séptima Diapositiva", description: "Cierra con un llamado a la acción claro que dirija a tus visitantes a la siguiente sección." },
+];
 
   // Estado para controlar la visibilidad del div
   const [_RandomCard, setRandomCard] = useState(<></>)

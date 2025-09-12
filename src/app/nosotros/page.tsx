@@ -2,9 +2,9 @@
 import { useState ,useEffect } from "react";
 
 import SplashScreen from "@/home/splashscreen";
-import N_vision from "@/nosotros/vision";
 import N_Pressentation from "@/nosotros/presentacion";
-import N_mision from "@/nosotros/mision";
+// import N_vision from "@/nosotros/vision";
+// import N_mision from "@/nosotros/mision";
 import N_carateristicas from "@/nosotros/caracteristicas";
 import N_elegirnos from "@/nosotros/elegirnos";
 import NewHomeNavBar from "@/home/NewNav";
@@ -29,8 +29,6 @@ export default function Nosotros() {
        <div className="relative  log-cont flex-col justify-center items-center ">
         <NewHomeNavBar/>
           <N_Pressentation/>
-          <N_mision/>
-          <N_vision/>
           <N_carateristicas/>
           <N_elegirnos/>
       </div>
@@ -38,3 +36,5 @@ export default function Nosotros() {
     </div>
   );
 }
+          // <N_mision/>
+          // <N_vision/>

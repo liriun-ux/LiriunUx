@@ -1,15 +1,15 @@
 
 const N_elegirnos: React.FC = () => {
     return(
-    <section className=" h-screen w-screen  bg-[#403d39]">
-        <div id="Nbase">
+    <section className=" h-screen w-screen  bg-[#054d4d]">
+        <div id="Mbase">
             <div id="aNOt">
                     <div id="tNq" className="box" >
 POR QUÉ ELEGIRNOS
                     </div>
                        <div id="tNp" className="box">
                            <div id="HBTCB_B">
-Nos diferenciamos por ofrecer sitios web con estándares globales, diseños a tu medida, creación rápida y listos para posicionarse en buscadores, con un diseño atractivo y un soporte cercano.
+Creamos tu sitio web con estándares modernos, diseño personalizado, entrega rápida, optimizado para buscadores, visualmente atractivo y con soporte cercano cuando lo necesites.
                            </div>
                        </div>
             </div>

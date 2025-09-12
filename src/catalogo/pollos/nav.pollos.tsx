@@ -2,8 +2,6 @@
 
 import { useState } from 'react';
 import { FaTwitter, FaFacebook, FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
-import { ElectronicNavItem } from '@/components/presentations/Electronic/electronic.NavItem';
-// import { SmaNavBar } from '../phones/nav.item';
 import { PolloNavBar } from './nav.items';
 const navigation =
   [

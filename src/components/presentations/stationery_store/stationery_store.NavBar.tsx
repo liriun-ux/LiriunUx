@@ -4,6 +4,7 @@
 import { useState } from 'react';
 import { FaTwitter, FaFacebook, FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
 import { StationeryStoreNavItem } from './stationery_store.NavItem';
+import Link from 'next/link';
 
 
 const navigation =
@@ -48,9 +49,9 @@ const StationeryStoreNavBar: React.FC =() => {
       <div className="container mx-auto flex justify-around items-center bg-green-50/80 py-1 lg:py-2 px-4 my-1 lg:my-4 rounded-lg">
         {/* Título centrado en móviles */}
         <div className="text-green-900 text-3xl font-bold  mx-auto lg:mx-0 px-8 " >
-          <a href="/" className="">
+          <Link href="/" className="">
             Mysite
-          </a>
+          </Link>
         </div>
 
         {/* Botón hamburguesa solo en pantallas pequeñas */}
@@ -72,15 +73,15 @@ const StationeryStoreNavBar: React.FC =() => {
         </div>
 
         <div className="hidden lg:flex space-x-4 px-8">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
               <FaTwitter />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
+            </Link>
+            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
               <FaFacebook />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
+            </Link>
+            <Link  href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
               <FaInstagram />
-            </a>
+            </Link>
         </div>
       </div>
 
@@ -98,15 +99,15 @@ const StationeryStoreNavBar: React.FC =() => {
             }
             </ul>
           <div className="flex space-x-4 px-4 pb-2">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
               <FaTwitter />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
+            </Link>
+            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
               <FaFacebook />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
+            </Link>
+            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-green-900 hover:text-white">
               <FaInstagram />
-            </a>
+            </Link>
           </div>
           </div>
         </div>

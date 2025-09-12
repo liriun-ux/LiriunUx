@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { Electronic,  Coffee, CoffeePrd, StationeryStore } from './ProductsExport';
 import DynamicElementsProducts from './DynamicElementProduct';
-import {  WoodFurniture,  Garden, CoffeeShop } from '../presentations/PresenntationExports';
+import {  WoodFurniture, CoffeeShop } from '../presentations/PresenntationExports';
 import { Smartphones } from '@/catalogo/phones/phones';
 import { Pollos } from '@/catalogo/pollos/pollos';
 
@@ -10,9 +10,7 @@ const animationList: { [key: string]: string } = {
   'Electronic': 'animate-slideInR',
   'StationeryStore': 'animate-slideBRtoTF',
   'WoodFurniture': 'animate-slideInR',
-  'BreadShop': 'animate-slideInR',
   'RoastBarbecue': 'animate-slideInR',
-  'Garden': 'animate-slideInR',
   'CoffeeShop': 'animate-slideInR',
   'CoffeeShopPrd': 'animate-slideInR',
   'CoffeeShoG': 'animate-slideInR',
@@ -80,9 +78,9 @@ const HandleProducts = () => {
       <StationeryStore ref={(el) => { sectionRefs.current[5] = el; }} />
       <CoffeeShop ref={(el) => { sectionRefs.current[6] = el; }} />
       <WoodFurniture ref={(el) => { sectionRefs.current[7] = el; }} />
-      <Garden ref={(el) => { sectionRefs.current[8] = el; }} />
     </div>
   );
 };
 
 export default HandleProducts;
+      // <Garden ref={(el) => { sectionRefs.current[8] = el; }} />

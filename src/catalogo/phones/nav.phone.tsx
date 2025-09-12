@@ -2,8 +2,7 @@
 import Image from 'next/image';
 
 import { useState } from 'react';
-import { FaTwitter, FaFacebook, FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
-import { ElectronicNavItem } from '@/components/presentations/Electronic/electronic.NavItem';
+import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 import { SmaNavBar } from './nav.item';
 
 import { BiSolidDownArrow } from "react-icons/bi";

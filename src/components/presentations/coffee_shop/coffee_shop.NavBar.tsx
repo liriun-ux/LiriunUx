@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { FaTwitter, FaFacebook, FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
 import { SiCoffeescript } from "react-icons/si";
 import { CoffeeShopNavItem } from './coffee_shop.NavItem';
-
+import Link from 'next/link';
 
 const navigation =
   [
@@ -50,7 +50,7 @@ const CoffeeShopNavBar: React.FC =() => {
       <div className="backdrop-blur-sm bg-darkWood/70 relative container mx-auto flex  lg:justify-around items-center  py-1 lg:py-2 px-4 my-2 lg:my-4 rounded-lg  ">
         {/* Título centrado en móviles */}
         <div className="text-vintageGold hover:text-latteLight text-3xl font-bold  mx-auto lg:mx-0 px-8 " >
-          <a href="/" className="">
+          <Link href="/" className="">
             <div className="flex">
               <h1>
               Coffee Shop
@@ -59,7 +59,7 @@ const CoffeeShopNavBar: React.FC =() => {
               <SiCoffeescript className="ml-2"/>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
 
         {/* Botón hamburguesa solo en pantallas pequeñas */}
@@ -81,15 +81,15 @@ const CoffeeShopNavBar: React.FC =() => {
         </div>
 
         <div className="hidden lg:flex space-x-4 px-8">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
               <FaTwitter />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
+            </Link>
+            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
               <FaFacebook />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
+            </Link>
+            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
               <FaInstagram />
-            </a>
+            </Link>
         </div>
       </div>
 
@@ -107,15 +107,15 @@ const CoffeeShopNavBar: React.FC =() => {
             }
             </ul>
           <div className="flex space-x-4 px-4 pb-2">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
               <FaTwitter />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
+            </Link>
+            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
               <FaFacebook />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
+            </Link>
+            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
               <FaInstagram />
-            </a>
+            </Link>
           </div>
           </div>
         </div>

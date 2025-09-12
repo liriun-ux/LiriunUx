@@ -55,9 +55,9 @@ export const WoodFurniture = React.forwardRef<HTMLDivElement>((props, ref) => {
       />
   {/* Contenedor del título y descripción */}
   <div className="flex flex-col">
-    <h2 className="text-3xl text-amber-900 lg:text-5xl font-bold mb-4">Muebles Satias</h2>
+    <h2 className="text-3xl text-amber-900 lg:text-5xl font-bold mb-4">Maderera</h2>
     <p className="text-lg lg:text-xl text-black">
-      Ofrecemos los mejores componentes electrónicos al mejor precio, garantizando calidad y rendimiento para tus proyectos tecnológicos.
+Este es un ejemplo de una tarjeta flotante pequeña, ideal para mostrar información breve y clara.
     </p>
   </div>
 

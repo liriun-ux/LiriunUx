@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { FaTwitter, FaFacebook, FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
 import { ElectronicNavItem } from './electronic.NavItem';
+import Link from 'next/link';
 
 const navigation =
   [
@@ -50,9 +51,9 @@ const ElectronicNavBar: React.FC =() => {
       <div className="mx-auto flex justify-around items-center bg-gray-800/45 w-full p-1 lg:p-4 ">
         {/* Título centrado en móviles */}
         <div className="text-amber-500 text-3xl font-bold mx-auto lg:mx-0" >
-          <a href="/" className="">
+          <Link href="/" className="">
             Mysite
-          </a>
+          </Link>
         </div>
 
         {/* Botón hamburguesa solo en pantallas pequeñas */}
@@ -74,15 +75,15 @@ const ElectronicNavBar: React.FC =() => {
         </div>
 
         <div className="hidden lg:flex space-x-4">
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+          <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
             <FaTwitter />
-          </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+          </Link>
+          <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
             <FaFacebook />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+          </Link>
+          <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
             <FaInstagram />
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -97,15 +98,15 @@ const ElectronicNavBar: React.FC =() => {
             }
             </ul>
           <div className="flex space-x-4 mt-4">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
               <FaTwitter />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+            </Link>
+            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
               <FaFacebook />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+            </Link>
+            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
               <FaInstagram />
-            </a>
+            </Link>
           </div>
         </div>
       )}

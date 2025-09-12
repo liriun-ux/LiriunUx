@@ -87,7 +87,7 @@ const ElectronicProduct: React.FC = () => {
               <button
                 key={section.id}
                 onClick={() => setActiveSection(section.id)}
-                className={`flex items-center p-2 rounded-md ${activeSection === section.id ? 'bg-gray-600' : 'bg-gray-700'} hover:bg-gray-600`}
+                className={`flex items-center p-2 rounded-md ${activeSection === section.id ? 'bg-[#eeeeee] text-[#222242] hover:bg-gray-700 hover:text-[#eeeeee]' : 'bg-gray-700 hover:bg-[#eeeeee] hover:text-[#222242] '} `}
               >
                 <Icon className="h-6 w-6 mr-2" />
                 <span>{section.title}</span>

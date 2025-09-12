@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { HomeNavBarItem } from './navbar.item';
 import HomeNavPBar from './nav.phone';
-import Link from 'next/link';
 import PopupExample from './pop';
 
 

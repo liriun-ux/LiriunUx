@@ -71,6 +71,20 @@
     padding: 0.8rem;
   }
 }
+.HLCT.one {
+  --color: #ff8f00;
+  --color1: #820202;
+}
+
+.HLCT.two {
+  --color: #eee;
+  --color1: #ff00cb;
+}
+.HLCT.tree {
+  --color: #ff8f00;
+  --color1: #820202;
+}
+
 .HLCB{
     position: relative;
     bottom: 50%;

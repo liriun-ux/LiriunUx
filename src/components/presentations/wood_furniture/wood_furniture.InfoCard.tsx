@@ -13,9 +13,8 @@ const WoodFurnitureInfoCard: React.FC = () => {
         className="absolute inset-0 -z-10 rounded-lg " // Posiciona la imagen detrás del contenido
       />
 
-      <h2 className="text-lg lg:text-2xl font-semibold my-1 text-amber-900 ">Paginas para Muebles</h2>
-      <p className="text-sm lg:text-lg  lg:mb-4 text-black ">Esta es una parte de como podria ser una pagina referente a bazar </p>
-      <a href="#more-info" className="text-amber-50 hover:underline  ">Cotizar</a>
+      <h2 className="text-lg lg:text-2xl font-semibold my-1 text-amber-900 ">Título de la tarjeta</h2>
+      <p className="text-sm lg:text-lg  lg:mb-4 text-black ">Este es un ejemplo de una tarjeta flotante pequeña, ideal para mostrar información breve y clara.</p>
     </div>
   );
 };

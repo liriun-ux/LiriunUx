@@ -11,13 +11,13 @@ const N_Pressentation: React.FC = () => {
                     </div>
                        <div id="Np" className="box">
                            <div id="HBTCB_B">
-Somos un equipo especializado en el diseño y desarrollo de sitios web modernos y rápidos, pensados para ayudar a empresas, emprendedores y profesionales a presentar sus productos en internet de forma clara y precisa.
+Somos un equipo especializado en crear sitios web modernos y rápidos, diseñados para que empresas, emprendedores y profesionales muestren sus productos en Internet de forma clara y efectiva.
                            </div>
                        </div>
                        <div id="Ns" className="box">
                            <div id="RHBTCB_B">
                                <div className=" "> 
-Creamos páginas con una estructura intuitiva y ordenada, para que cada visitante entienda de qué se trata tu negocio en cuestión de segundos.
+Diseñamos páginas con una estructura clara e intuitiva, para que cada visitante comprenda tu negocio en segundos.
                                    </div>
                            </div>
                        </div>

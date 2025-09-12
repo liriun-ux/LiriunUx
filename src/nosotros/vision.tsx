@@ -2,7 +2,7 @@
 const N_vision: React.FC = () => {
     return(
     <section className=" h-screen w-screen  bg-[#460245]">
-        <div id="Nbase">
+        <div id="Mbase">
             <div id="aNOt">
                     <div id="eNq" className="box" >
                         VISIÓN

@@ -8,13 +8,15 @@ const Tecnologias: React.FC = () => {
     <div id="HTB">
         <div id="HTT" className="boxA"> 
             <div id="HTTB">
-<p >Utilizamos las siguientes tecnologías modernas y probadas en la industria para crear páginas web rápidas, seguras y adaptadas a cualquier dispositivo.</p>
-                   <span className="HTTBT"> <span   id="rNe">Next.js</span><span>  Framework de React que permite crear sitios web rápidos y optimizados.</span></span>
-                   <span className="HTTBT"> <span   id="rTy">TypeScript   </span><span>  Lenguaje que añade tipado a JavaScript, mejorando la seguridad y mantenibilidad del código.</span></span>
-                   <span className="HTTBT"> <span   id="rTa">Tailwind CSS </span><span>  Framework de CSS que permite diseñar interfaces modernas de forma rápida y flexible.</span></span>
-                   <span className="HTTBT"> <span   id="rHt">HTML5        </span><span>  Lenguaje estándar para estructurar contenido en la web.</span></span>
-                   <span className="HTTBT"> <span   id="rCs">CSS3         </span><span>  Herramienta para dar estilo y animaciones atractivas a las páginas.</span></span>
-                   <span className="HTTBT"> <span   id="rVe">Vercel       </span><span>  Plataforma de despliegue que garantiza velocidad y disponibilidad global de tu sitio.</span></span>
+<p >
+Con las mejores tecnologías, hacemos que tu sitio web sea rápido, seguro y se vea perfecto en cualquier dispositivo.
+</p>
+                   <span className="HTTBT"> <span   id="rNe">&nbsp;Next.js      </span><span>  Usamos este framework de React para que tu web sea rápida, eficiente y fácil de usar.</span></span>
+                   <span className="HTTBT"> <span   id="rHt">&nbsp;HTML5        </span><span>  El lenguaje que usamos para organizar el contenido de tu web, asegurando que todo se vea claro y ordenado.</span></span>
+                   <span className="HTTBT"> <span   id="rCs">&nbsp;CSS3         </span><span>  El lenguaje que usamos para que tu web luzca atractiva y tenga animaciones que mejoran la experiencia de tus usuarios.</span></span>
+                   <span className="HTTBT"> <span   id="rTy">&nbsp;TypeScript   </span><span>  Lenguaje de programación que usamos para que tu web sea más segura y su código más fácil de actualizar.</span></span>
+                   <span className="HTTBT"> <span   id="rTa">&nbsp;Tailwind CSS </span><span>  Usamos este framework de CSS para que tu web tenga un diseño moderno, bonito y que se adapte a cualquier dispositivo rápidamente.</span></span>
+                   <span className="HTTBT"> <span   id="rVe">&nbsp;Vercel       </span><span>  Usamos esta plataforma para que tu web cargue rápido y esté accesible desde cualquier lugar del mundo.</span></span>
 
             </div>
         </div>
@@ -23,10 +25,9 @@ const Tecnologias: React.FC = () => {
         <div id="HTC" className="boxA">
             <div id="HTCB">
                 <div id="HTCBT">
-    <span>Dale forma a tu visión </span><br/>
+    <span>Dale vida a tu idea  </span><br/>
 
-Explora nuestro catálogo de secciones únicas y descubre cómo tu página puede lucir profesional, moderna y atractiva.
-                </div>
+Mira nuestro catálogo de secciones web y descubre cómo tu página puede verse profesional, moderna y llamativa.                </div>
                 <div id="HTCBB">
                     <HomeNavBarItem  name="CATALOGO" href="/catalogo"/>
                 </div>

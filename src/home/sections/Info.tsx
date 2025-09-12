@@ -8,22 +8,22 @@ import { useState } from 'react';
 const Text = {
   inicio: (
     <div id="InfoAnCTXTXI" >
-      La portada principal donde se presenta la propuesta de valor y lo más destacado del sitio.
+Es la primera página de tu sitio, donde mostramos lo más importante y lo que hace especial tu web.
     </div>
   ),
   Nosotros: (
     <div id="InfoAnCTXTXN">
-      Sección dedicada a explicar quiénes somos, nuestra historia, misión, visión y equipo.
+Aquí contamos quién eres, tu historia, lo que te inspira y el equipo que hace posible tu proyecto.
     </div>
   ),
   Productos: (
     <div id="InfoAnCTXTXP">
-      Catálogo o listado de productos o servicios que la empresa ofrece a sus clientes.
+Aquí encontrarás tus productos y servicios, con lo que ofrecen y cómo pueden ayudar a tus clientes.
     </div>
   ),
   Contactos: (
     <div id="InfoAnCTXTXC">
-      Espacio con formularios, teléfonos, emails o direcciones para que los usuarios puedan comunicarse.
+Aquí tus clientes pueden seguirte en tus redes sociales y ver dónde están tus sucursales en un mapa fácil de usar.
     </div>
   ),
 };
@@ -31,7 +31,9 @@ const Text = {
 
 const InfoHome: React.FC = () => {
 
-  const [activeSection, setActiveSection] = useState(      <div className="InfoAnCTXTX">Seleciona alguno de los botons que explica usu proposito en las paginas weba a</div>);
+  const [activeSection, setActiveSection] = useState(      <div className="InfoAnCTXTX">
+Haz clic en un botón y descubre para qué sirve en una página web.
+</div>);
 
   return (
     <section className=" h-screen w-screen ">
@@ -41,9 +43,7 @@ const InfoHome: React.FC = () => {
             <div id="InfoText" className="boxA">
                 <div id="InfoTextB"> 
                     <div id="InfoTextT">
-                        En la parte inferior encontrarás un ejemplo del esquema clásico de navegación web, 
-                        con las secciones esenciales tal como se emplea en sitios web 
-                        modernos y funcionales.
+En la parte inferior encontrarás un ejemplo del esquema clásico de navegación web, con las secciones esenciales tal como se utilizan en sitios modernos y funcionales.
                     </div>
                 </div>
             </div>

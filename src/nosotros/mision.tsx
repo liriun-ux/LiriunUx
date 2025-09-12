@@ -3,7 +3,7 @@
 const N_mision: React.FC = () => {
     return(
     <section className=" h-screen w-screen  bg-[#023646]">
-        <div id="Nbase">
+        <div id="Mbase">
             <div id="aNOt">
                     <div id="aNq" className="box">
                         MISIÓN

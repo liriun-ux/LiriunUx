@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image';
-import React, { useState, useRef } from 'react';
+import React from 'react';
 import Slider from './slider';
 
 export const Smartphones = React.forwardRef<HTMLDivElement>((props, ref) => {
@@ -43,14 +43,14 @@ export const Smartphones = React.forwardRef<HTMLDivElement>((props, ref) => {
                 <div id='Sdfr'>
                     <div className='TSK'>XBOX SERIES X</div>
                     <div className='Frgo'>
-La Xbox Series X ofrece potencia, velocidad y experiencias de juego inmersivas.
+Vive juegos potentes, rápidos y totalmente inmersivos con la Xbox Series X.
                     </div>
                 </div>
                 <div id='Spio'></div>
                 <div id='Sdf'>
                     <div className='TSK'>TEKKEN 8</div>
                     <div className='Frgo'>
-Tekken 8 brinda combates intensos, gráficos impresionantes y emoción competitiva constante.
+Disfruta de combates intensos, gráficos impresionantes y emoción competitiva sin fin en Tekken 8.
                     </div>
                 </div>
             </div>

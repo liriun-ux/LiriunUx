@@ -26,9 +26,8 @@ const CoffeeInfoCard: React.FC = () => {
         &times; {/* X simbolizando cerrar */}
       </button>
 
-      <h2 className="text-sm lg:text-xl font-semibold my-1 text-vintageGold">Paginas para Muebles</h2>
-      <p className="text-sm lg:mb-4 text-latteLight">Esta es una parte de como podría ser una página referente a bazar</p>
-      <a href="#more-info" className="text-white hover:underline">Cotizar</a>
+      <h2 className="text-sm lg:text-xl font-semibold my-1 text-vintageGold">Título de la tarjeta</h2>
+      <p className="text-sm lg:mb-4 text-latteLight">Este es un ejemplo de  una tarjeta flotante pequeña, ideal para mostrar información breve y clara.</p>
     </div>
   );
 };

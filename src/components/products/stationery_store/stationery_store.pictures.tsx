@@ -30,16 +30,31 @@ const StationeryPictures = () => {
     return () => clearInterval(interval);
   }, [images.length]);
 
+
+  const aimages = [];
+  for (let i = 0; i < images.length; i++) {
+    aimages.push(
+<div
+        key={i}
+        className={`absolute inset-0 transition-opacity duration-700 ${
+          i === currentIndex ? "opacity-100" : "opacity-0"
+        }`}
+      >
+        <Image
+          src={images[i]}
+          alt="none"
+          fill
+          style={{ objectFit: "cover" }}
+          className="rounded-lg"
+          loading="eager"
+          // unoptimized
+        />
+      </div>
+    );
+  }
   return (
     <div className={`relative w-full h-full shadow-lg shadow-gray-700 rounded-lg ${isFlipping ? styles.flipOut : styles.flipIn }`}>
-      <Image
-        src={images[currentIndex]}
-        alt="Imagen de papelería"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-        className="rounded-lg"
-      />
+    {aimages}
     </div>
   );
 };

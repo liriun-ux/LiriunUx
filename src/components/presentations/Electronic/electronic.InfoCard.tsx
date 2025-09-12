@@ -23,9 +23,8 @@ const ElectronicInfoCard: React.FC = () => {
       >
         &times; {/* X simbolizando cerrar */}
       </button>
-      <h2 className="text-lg lg:text-2xl font-semibold mb-2 text-amber-500 ">Paginas para Electronica</h2>
-      <p className="text-sm lg:text-lg  lg:mb-4 text-gray-300 ">Esta es una parte de como podria ser una pagina referente a electronica</p>
-      <a href="#more-info" className="text-amber-500 hover:underline">Cotizar</a>
+      <h2 className="text-lg lg:text-2xl font-semibold mb-2 text-amber-500 ">Título de la tarjeta</h2>
+      <p className="text-sm lg:text-lg  lg:mb-4 text-gray-300 ">Este es un ejemplo de  una tarjeta flotante pequeña, ideal para mostrar información breve y clara.</p>
     </div>
   );
 };
