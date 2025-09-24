@@ -149,13 +149,14 @@
     text-align: start;
     text-shadow: var(--fotb1) 0px 2px 15px;
     box-shadow: var(--fotb) 5px 5px 15px;
-    padding-inline: 1rem;
+    padding: 1rem;
     border-radius: 15px;
     /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
     /* border: 2px solid #ffffff33; */
     backdrop-filter: blur(05px);
   @media (max-width: 1204px) {
       font-size: 1.2rem;
+        padding: 0.8rem;
   }
 }
 #HBTC_B div{
@@ -202,13 +203,14 @@
     text-align: center;
     text-shadow: var(--fotb1) 0px 2px 15px;
     box-shadow: var(--fotb) 5px 5px 15px;
-    padding-inline: 1rem;
+    padding: 1rem;
     border-radius: 15px;
     /* box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37); */
     /* border: 2px solid #ffffff33; */
     backdrop-filter: blur(05px);
   @media (max-width: 1204px) {
       font-size: 1.1rem;
+        padding: 0.8rem;
   }
 }
 
