@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { FaTwitter, FaFacebook, FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
 import { PolloNavBar } from './nav.items';
+import Link from 'next/link';
 const navigation =
   [
     {
@@ -48,8 +49,9 @@ const NavPollos: React.FC =() => {
   return (
     <div id='PNNsb' className=" opacity-0 animate-slideIn">
         <div id='BNPDS'>
-
+            <Link href="/">
             <div id='NPtx'>Pollos Feliz</div>
+            </Link>
 
         {/* Botón hamburguesa solo en pantallas pequeñas */}
         <div className="PBTOIO">

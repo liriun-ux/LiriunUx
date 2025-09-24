@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { HomeNavBarItem } from './navbar.item';
 import HomeNavPBar from './nav.phone';
 import PopupExample from './pop';
-
+import Link from 'next/link';
 
 const navigation =
   [
@@ -56,6 +56,7 @@ const NewHomeNavBar: React.FC = () => {
                 <div className="walkerIll" style={{animationDelay:'-0.43s' , animationDuration:'5.7s'}}></div>
                 <div className="walkerIll" style={{animationDelay:'-0.73s' , animationDuration:'4.5s'}}></div>
 
+                <Link href="/" className='nav-logo-ref'>
             <div id='nav-logo'>
                 <div className=' underline'>LIRIUN-UX</div>
                 <div className="walker"></div>
@@ -63,6 +64,7 @@ const NewHomeNavBar: React.FC = () => {
                 <div className="walker" style={{animationDelay:'0.03s' , animationDuration:'5.3s'}}></div>
                 <div className="walker" style={{animationDelay:'-0.43s' , animationDuration:'5.7s'}}></div>
             </div>
+            </Link>
 
             <div id='nav-item' >
                 <ul className="font-medium flex flex-col p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg  lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0  ">

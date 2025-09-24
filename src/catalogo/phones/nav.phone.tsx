@@ -6,6 +6,7 @@ import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 import { SmaNavBar } from './nav.item';
 
 import { BiSolidDownArrow } from "react-icons/bi";
+import Link from 'next/link';
 
 const navigation =
   [
@@ -54,6 +55,7 @@ const NavSmartphones: React.FC =() => {
 <div className="sombra">
   <div className="trapecio">
     <div id='NIYO'>
+                <Link href="/" >
       <Image
         src="/img/phones/tekken8tr2.png"
         alt="Fondo"
@@ -62,6 +64,7 @@ const NavSmartphones: React.FC =() => {
     style={{ objectFit: "cover" }}
     className=""
   />
+        </Link>
 
         </div>
 

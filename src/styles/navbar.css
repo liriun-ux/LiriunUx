@@ -24,7 +24,12 @@
 }
 /*NOTE: nav LOGO*/
 
-
+.nav-logo-ref{
+    height: 100%;
+    display: flex;
+  justify-items: center;
+  align-items: center;
+}
 #nav-logo {
   color: #ffffff;
   background-color: #000;
