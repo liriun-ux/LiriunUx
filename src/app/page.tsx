@@ -1,4 +1,6 @@
 'use client'
+import Head from "next/head";
+
 import { useState ,useEffect } from "react";
 
 import SplashScreen from "@/home/splashscreen";
@@ -20,6 +22,10 @@ export default function Home() {
   }, [showContent]);
   return (
     <div id="" className="">
+      <Head>
+        <title>Litiun-UX - Inicio</title>
+        <meta name="description" content="Bienvenido a mi sitio web, donde ofrecemos servicios modernos y rápidos." />
+      </Head>
   {/* Fondo */}
   <div id="HBack" >
     <div className="HBR" id="HBRN1" style={{ background: '#00ff00', left: '10%', top: '10%' }}></div>
