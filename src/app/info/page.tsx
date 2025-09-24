@@ -1,3 +1,11 @@
+
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "¿Necesito un sitio web para mi negocio? - LIRIUN-UX",
+  description:
+    "Un sitio web da visibilidad, credibilidad y ventas a tu negocio. Es económico, competitivo y esencial para crecer y ganar confianza online.",
+};
+
 // pages/index.tsx
 import NewHomeNavBar from "@/home/NewNav";
 import Maro from "@/info/maro";
