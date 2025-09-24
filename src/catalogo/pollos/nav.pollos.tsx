@@ -70,15 +70,32 @@ const NavPollos: React.FC =() => {
 
             <div id='Snav-cont'>
         <div className="Sri IPlooo">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
-              <FaTwitter />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
-              <FaFacebook />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
-              <FaInstagram />
-            </a>
+<a 
+  href="https://x.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaTwitter />
+</a>
+
+<a 
+  href="https://www.facebook.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaFacebook />
+</a>
+
+<a 
+  href="https://www.instagram.com/liriun_ux" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaInstagram />
+</a>
         </div>
 
             </div>
@@ -94,15 +111,32 @@ const NavPollos: React.FC =() => {
             }
             </ul>
         <div className="Sri IPlooo">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
-              <FaTwitter />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
-              <FaFacebook />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
-              <FaInstagram />
-            </a>
+<a 
+  href="https://x.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaTwitter />
+</a>
+
+<a 
+  href="https://www.facebook.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaFacebook />
+</a>
+
+<a 
+  href="https://www.instagram.com/liriun_ux" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaInstagram />
+</a>
         </div>
         </div>
       )}

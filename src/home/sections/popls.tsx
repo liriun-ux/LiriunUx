@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import { createPortal } from "react-dom";
+import Link from "next/link";
 
 export default function PopContact() {
   const [open, setOpen] = useState(false);
@@ -17,9 +18,32 @@ export default function PopContact() {
         createPortal(
           <div id="overlay">
             <div id="popup">
-              <p className="popup-text fck boxA" >Facebook</p>
-              <p className="popup-text twe boxA" >X</p>
-              <p className="popup-text ist boxA" >Instagram</p>
+  <Link
+    href="https://www.facebook.com/LiriunUX"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="popup-text fck boxA"
+  >
+    Facebook
+  </Link>
+
+  <Link
+    href="https://x.com/LiriunUX"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="popup-text twe boxA"
+  >
+    X
+  </Link>
+
+  <Link
+    href="https://www.instagram.com/liriun_ux"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="popup-text ist boxA"
+  >
+    Instagram
+  </Link>
               <button id="close-btn" onClick={() => setOpen(false)}>
                 X
               </button>

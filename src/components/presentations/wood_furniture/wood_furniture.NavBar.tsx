@@ -81,15 +81,32 @@ const WoodFurnitureNavBar: React.FC =() => {
         </div>
 
         <div className="hidden lg:flex space-x-4 px-8">
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
-              <FaTwitter />
-            </Link>
-            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
-              <FaFacebook />
-            </Link>
-            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
-              <FaInstagram />
-            </Link>
+<Link 
+  href="https://x.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaTwitter />
+</Link>
+
+<Link 
+  href="https://www.facebook.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaFacebook />
+</Link>
+
+<Link 
+  href="https://www.instagram.com/liriun_ux" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaInstagram />
+</Link>
         </div>
       </div>
 
@@ -114,15 +131,32 @@ const WoodFurnitureNavBar: React.FC =() => {
             }
             </ul>
           <div className="flex space-x-4 px-4 pb-2">
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer"   className={style_icons}>
-              <FaTwitter />
-            </Link>
-            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer"  className={style_icons}>
-              <FaFacebook />
-            </Link>
-            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={style_icons}>
-              <FaInstagram />
-            </Link>
+<Link 
+  href="https://x.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaTwitter />
+</Link>
+
+<Link 
+  href="https://www.facebook.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaFacebook />
+</Link>
+
+<Link 
+  href="https://www.instagram.com/liriun_ux" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className={style_icons}
+>
+  <FaInstagram />
+</Link>
           </div>
           </div>
         </div>

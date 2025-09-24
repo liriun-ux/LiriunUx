@@ -75,15 +75,32 @@ const ElectronicNavBar: React.FC =() => {
         </div>
 
         <div className="hidden lg:flex space-x-4">
-          <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
-            <FaTwitter />
-          </Link>
-          <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
-            <FaFacebook />
-          </Link>
-          <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
-            <FaInstagram />
-          </Link>
+<Link 
+  href="https://x.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="text-gray-300 hover:text-white"
+>
+  <FaTwitter />
+</Link>
+
+<Link 
+  href="https://www.facebook.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="text-gray-300 hover:text-white"
+>
+  <FaFacebook />
+</Link>
+
+<Link 
+  href="https://www.instagram.com/liriun_ux" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="text-gray-300 hover:text-white"
+>
+  <FaInstagram />
+</Link>
         </div>
       </div>
 
@@ -98,15 +115,32 @@ const ElectronicNavBar: React.FC =() => {
             }
             </ul>
           <div className="flex space-x-4 mt-4">
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
-              <FaTwitter />
-            </Link>
-            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
-              <FaFacebook />
-            </Link>
-            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
-              <FaInstagram />
-            </Link>
+<Link 
+  href="https://x.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="text-gray-300 hover:text-white"
+>
+  <FaTwitter />
+</Link>
+
+<Link 
+  href="https://www.facebook.com/LiriunUX" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="text-gray-300 hover:text-white"
+>
+  <FaFacebook />
+</Link>
+
+<Link 
+  href="https://www.instagram.com/liriun_ux" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="text-gray-300 hover:text-white"
+>
+  <FaInstagram />
+</Link>
           </div>
         </div>
       )}
