@@ -18,7 +18,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "LIRIUN-UX",
-  description: "DIseno y creacion de sitios web",
+  description: "liriun-ux diseño y creacion de sitios web",
 };
 
 export default function RootLayout({
