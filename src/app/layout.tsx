@@ -17,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  // title: "LIRIUN-UX",
-  // description: "liriun-ux diseño y creacion de sitios web",
+  title: "LIRIUN-UX",
+  description: "liriun-ux diseño y creacion de sitios web",
 };
 
 export default function RootLayout({
@@ -27,11 +27,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
         <head>
         <link rel="icon" href="../../public/favicon.png" sizes="any" type="image/png" />
         <meta name="google-site-verification" content="9uoYUtZTuSGRKFyr7K4ShT0CAAYUxXLI9pfJ0kjg88k" />
         <meta name="google-site-verification" content="4M-rBEqCqgc-2h0Rf40d04W1WqTiSfJa3j0F2UYlrHA" />
+        <link rel="canonical" href="https://www.liriun-ux.tecnologia.bo/" />
+
         </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} `}
