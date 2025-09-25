@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://liriun-ux.vercel.app
+Host: https://www.liriun-ux.tecnologia.bo
 
 # Sitemaps
-Sitemap: https://liriun-ux.vercel.app/sitemap.xml
+Sitemap: https://www.liriun-ux.tecnologia.bo/sitemap.xml
