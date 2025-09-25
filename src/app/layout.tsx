@@ -31,6 +31,7 @@ export default function RootLayout({
         <head>
         <link rel="icon" href="../../public/favicon.png" sizes="any" type="image/png" />
         <meta name="google-site-verification" content="9uoYUtZTuSGRKFyr7K4ShT0CAAYUxXLI9pfJ0kjg88k" />
+        <meta name="google-site-verification" content="4M-rBEqCqgc-2h0Rf40d04W1WqTiSfJa3j0F2UYlrHA" />
         </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} `}
