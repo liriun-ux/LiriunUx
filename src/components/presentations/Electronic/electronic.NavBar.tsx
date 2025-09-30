@@ -47,12 +47,12 @@ const ElectronicNavBar: React.FC =() => {
   };
 
   return (
-    <nav className=" fixed top-0 left-0 w-full z-20  opacity-0 animate-rebote font-mono ">
+    <nav className=" text-white fixed  w-full z-10   opacity-0 animate-slideIn top-0 left-0  ">
       <div className="mx-auto flex justify-around items-center bg-gray-800/45 w-full p-1 lg:p-4 ">
         {/* Título centrado en móviles */}
         <div className="text-amber-500 text-3xl font-bold mx-auto lg:mx-0" >
           <Link href="/" className="">
-            MysiteA
+            Mysite
           </Link>
         </div>
 
