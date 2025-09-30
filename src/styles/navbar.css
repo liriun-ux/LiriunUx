@@ -2,6 +2,8 @@
     height: 4.5rem;
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
   @media (max-width: 1204px) {
 
     height: 3.0rem;
