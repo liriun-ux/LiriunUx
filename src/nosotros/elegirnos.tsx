@@ -1,7 +1,7 @@
 
 const N_elegirnos: React.FC = () => {
     return(
-    <section className=" h-screen w-screen  bg-[#054d4d]">
+    <section className=" h-screen w-screen ">
         <div id="Mbase">
             <div id="aNOt">
                     <div id="tNq" className="box" >

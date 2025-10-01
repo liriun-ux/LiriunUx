@@ -92,8 +92,8 @@
       position: absolute;
       right: 0;
       top: 15%;
---fotb: #6a2020;
-  --fotb1: #ffaa00;
+--fotb: #dbf075;
+  --fotb1: #3a3c01;
     background-color: var(--fotb);
     color: var(--fotb1);
     width: auto;

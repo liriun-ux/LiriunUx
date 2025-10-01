@@ -148,8 +148,8 @@
 #rNp{
 
     position: relative;
---fotb: #ece9e3;
-  --fotb1: #59590d;
+--fotb1: #ffd98e;
+  --fotb: #032d3e;
     bottom: -5%;
     background-color: var(--fotb);
     color: var(--fotb1);
@@ -177,8 +177,8 @@
 
       position: relative;
       /* top: -5%; */
---fotb: #ece9e3;
-  --fotb1: #59590d;
+--fotb: #ffd98e;
+  --fotb1: #032d3e;
     background-color: var(--fotb);
     color: var(--fotb1);
     width: auto;
@@ -208,15 +208,25 @@
     text-align: center;
     margin-bottom: 0.6rem;
 }
-
+#ryU{
+    --color: #ffd98e;
+    --color1: #032d3e;
+    background-color: var(--color);
+    color: var(--color1);
+    text-shadow: var(--color1) 0px 2px 15px;
+    box-shadow: var(--color) 5px 5px 15px;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+}
 
 /*NOTE: por que elegirnos*/
 
 #tNp{
 
     position: relative;
---fotb: #eeeeee;
-  --fotb1: #063e3e;
+--fotb: #fa0;
+  --fotb1: #000;
     /* bottom: -15%; */
     background-color: var(--fotb);
     color: var(--fotb1);
@@ -244,8 +254,8 @@
 
       position: relative;
       top: -5%;
---fotb: #eeeeee;
-  --fotb1: #17b7bf;
+--fotb1: #fff;
+  --fotb: #000;
     background-color: var(--fotb);
     color: var(--fotb1);
     width: auto;

@@ -24,7 +24,16 @@ export default function PageNosotros() {
   return (
     <div id="" className="">
   {/* Fondo */}
-  <div id="NBack" >
+  <div id="" >
+
+  <div id="HBack" >
+    <div className="HBR" id="HBRN1" style={{ background: '#00ff00', left: '10%', top: '10%' }}></div>
+    <div className="HBR" id="HBRN2" style={{ background: '#00ffff', left: '10%', top: '70%' }}></div>
+    <div className="HBR" id="HBRN3" style={{ background: '#ffaa00', left: '20%', top: '40%' }}></div>
+    <div className="HBR" id="HBRN4" style={{ background: '#ffff00', left: '60%', top: '20%' }}></div>
+    <div className="HBR" id="HBRN5" style={{ background: '#ff0000', left: '50%', top: '70%' }}></div>
+    <div className="HBR" id="HBRN6" style={{ background: '#ffffff', left: '50%', top: '50%' }}></div>
+  </div>
   </div>
       {!showContent && <SplashScreen onFinish={() => setShowContent(true)} />}
       {showContent && (

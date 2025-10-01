@@ -126,7 +126,8 @@
     margin-right: 0.5rem;
 
 }
-#rHt{    --color: #E34F26;
+#rHt{
+    --color: #E34F26;
     --color1: #f0e3e1;
     background-color: var(--color);
     color: var(--color1);
