@@ -34,8 +34,8 @@ export default function RootLayout({
         <meta name="google" content="notranslate"/>
         <meta name="googlebot" content="notranslate"/>
         <link rel="icon" href="/favicon.ico" />
-
-        <link rel="icon" type="image/png" sizes="512x512" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png" />
         <link rel="canonical" href="https://www.liriun-ux.tecnologia.bo/" />
 
         </head>
