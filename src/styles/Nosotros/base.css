@@ -122,8 +122,8 @@
 
 #tyNs{
 
-    --fotb: #26012b;
-    --fotb1: #ff00ff;
+--fotb: #05595e;
+  --fotb1: #023244;
     background-color: var(--fotb);
     color: var(--fotb1);
     /* width: 60%; */

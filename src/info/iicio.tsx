@@ -42,7 +42,7 @@ const RespuestaSitioWeb: React.FC = () => {
       </h2>
 
       <p className="mb-6 text-gray-700 goi">
-        La respuesta es <span className="font-semibold text-orange-600">sí</span>.
+        La respuesta es <span className="font-semibold text-[#05a95e]">sí</span>.
         Aquí están las principales razones:
       </p>
 

@@ -25,7 +25,7 @@ const InvestigacionesList: React.FC<Props> = ({ investigaciones }) => {
               href={item.enlace}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#aa00ff] hover:underline goi"
+              className="text-[#05a95e] hover:underline goi"
             >
               Ver más
             </a>

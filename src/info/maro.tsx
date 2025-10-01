@@ -32,7 +32,7 @@ const investigaciones = [
 ];
 const Maro: React.FC = () => {
     return (
-    <section className=" bg-[#26012b]">
+    <section className=" bg-[#05595e]">
         <div id="tyNbase">
             <div id="tyNOt">
                 <div id="tyNs" className="">
