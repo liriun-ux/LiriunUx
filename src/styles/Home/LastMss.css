@@ -72,17 +72,17 @@
   }
 }
 .HLCT.one {
-  --color: #ff8f00;
-  --color1: #820202;
+  --color1: #fff;
+  --color: #001131;
 }
 
 .HLCT.two {
   --color: #eee;
-  --color1: #ff00cb;
+  --color1: #aa00cb;
 }
 .HLCT.tree {
-  --color: #ff8f00;
-  --color1: #820202;
+--color1: #3c1900;
+  --color: #e6b353;
 }
 
 .HLCB{

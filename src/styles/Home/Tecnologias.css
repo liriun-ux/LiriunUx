@@ -41,7 +41,7 @@
 #HTTB{
     
     --color: #000322;
-    --color1: #0eb0ff;
+    --color1: #aecfe3;
     background-color: var(--color);
     color: var(--color1);
     font-size: 1.8rem;
@@ -58,7 +58,7 @@
     max-height: 95%;
     overflow-y: auto;
   @media (max-width: 1204px) {
-      font-size: 1.1rem;
+      font-size: 1.0rem;
     width: 100%;
     height: auto;
     /* padding: 0.4rem; */
@@ -67,8 +67,8 @@
 }
 #HTTB p {
     margin-bottom: 0.6rem;
-    --color1: #800d01;
-    --color: #f7ae04;
+--color1: #046777;
+  --color: #fff;
     background-color: var(--color);
     color: var(--color1);
     text-shadow: var(--color1) 0px 2px 15px;
@@ -78,7 +78,7 @@
     text-align: center;
     line-height: 2.4rem;
   @media (max-width: 1204px) {
-    font-size: 1.14rem ;
+    font-size: 1.10rem ;
     padding: 0.6rem;
     line-height:normal;
   }
@@ -168,8 +168,8 @@
 }
 #HTCBT{
     
---color: #fb6a01;
-  --color1: #460202;
+--color: #fff;
+  --color1: #011b4d;
     background-color: var(--color);
     color: var(--color1);
     font-size: 1.8rem;
