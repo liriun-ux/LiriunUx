@@ -9,7 +9,7 @@ const Logo: React.FC = () => {
     <div className="base-circle"></div>
     <div className="logo">
         <div className="TexLogo">
-            Y
+            L
         </div>
     </div>
   </div>
