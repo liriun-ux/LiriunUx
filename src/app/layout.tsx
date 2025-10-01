@@ -29,11 +29,13 @@ export default function RootLayout({
   return (
     <html lang="es" translate='no' className='notranslate'>
         <head>
-        <link rel="icon" href="../../public/favicon.png" sizes="any" type="image/png" />
         <meta name="google-site-verification" content="9uoYUtZTuSGRKFyr7K4ShT0CAAYUxXLI9pfJ0kjg88k" />
         <meta name="google-site-verification" content="4M-rBEqCqgc-2h0Rf40d04W1WqTiSfJa3j0F2UYlrHA" />
         <meta name="google" content="notranslate"/>
         <meta name="googlebot" content="notranslate"/>
+        <link rel="icon" href="/favicon.ico" />
+
+        <link rel="icon" type="image/png" sizes="512x512" href="/favicon.ico" />
         <link rel="canonical" href="https://www.liriun-ux.tecnologia.bo/" />
 
         </head>
