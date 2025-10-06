@@ -34,36 +34,122 @@ export const WoodFurniture = React.forwardRef<HTMLDivElement>((props, ref) => {
       ref={ref}
     >
       {/* Imagen de fondo */}
-      <Image
-        src="/img/wood/pexels-caio-mantovani-97605853-14495131.jpg"
-        alt="Fondo"
-  fill // Reemplaza "layout='fill'"
-  style={{ objectFit: 'cover' }} // Reemplaza "objectFit='cover'"
-        quality={100}
-        className="-z-10"
-      />
+<div className="absolute w-full h-[20%] top-36"> 
+  <Image
+    src="/img/wood/pexels-caio-mantovani-97605853-14495131.jpg"
+    alt="Fondo"
+    fill
+    style={{ objectFit: "cover" }}
+    quality={100}
+    className="-z-10"
+  />
+</div>
 
       {/* Contenedor con título, descripción y botón */}
-<div id='WoodFurnitureC' className="relative flex flex-col sm:flex-row items-center lg:flex-row lg:items-center  gap-4 bg-green-50/80 m-5 lg:p-10 p-3 rounded-lg lg:w-3/6 lg:ml-[-20vw] opacity-0 top-6 lg:top-0">
+<div id='WoodFurnitureC' className="maedraConter">
 
-      <Image
-        src="/img/wood/bkop.png" // Reemplaza con el nombre de tu imagen
-        alt="Fondo"
-  fill // Reemplaza "layout='fill'"
-  style={{ objectFit: 'cover' }} // Reemplaza "objectFit='cover'"
-        className="absolute inset-0 -z-10 rounded-lg " // Posiciona la imagen detrás del contenido
-      />
   {/* Contenedor del título y descripción */}
-  <div className="flex flex-col">
-    <h2 className="text-3xl text-amber-900 lg:text-5xl font-bold mb-4">Maderera</h2>
-    <p className="text-lg lg:text-xl text-black">
-Este es un ejemplo de una tarjeta flotante pequeña, ideal para mostrar información breve y clara.
-    </p>
+  <div className="MadProductos">
+  
+        <div className="RFTcontenedor">
+      {/* Caja principal */}
+      <div className="RFTcajaPrincipal">
+        <Image
+        src="/img/wood/silla.jpg" // Reemplaza con el nombre de tu imagen
+          alt="Imagen central"
+          width={150}
+          height={150}
+          className="RFTimagenCentral"
+        />
+      </div>
+
+      {/* Caja sombra */}
+      <div className="RFTcajaSombra">
+        <Image
+        src="/img/wood/bkop.png" // Reemplaza con el nombre de tu imagen
+          alt="Imagen sombra"
+          fill
+          className="RFTimagenSombra"
+        />
+      </div>
+    </div>
+
+
+        <div className="RFTcontenedor">
+      {/* Caja principal */}
+      <div className="RFTcajaPrincipal">
+        <Image
+        src="/img/wood/mesanogal.jpg" // Reemplaza con el nombre de tu imagen
+          alt="Imagen central"
+          width={150}
+          height={150}
+          className="RFTimagenCentral"
+        />
+      </div>
+
+      {/* Caja sombra */}
+      <div className="RFTcajaSombra">
+        <Image
+        src="/img/wood/maderaNogal.jpg" // Reemplaza con el nombre de tu imagen
+          alt="Imagen sombra"
+          fill
+          className="RFTimagenSombra"
+        />
+      </div>
+    </div>
+
+
+        <div className="RFTcontenedor">
+      {/* Caja principal */}
+      <div className="RFTcajaPrincipal">
+        <Image
+    src="/img/wood/mesa2.jpg"
+          alt="Imagen central"
+          width={150}
+          height={150}
+          className="RFTimagenCentral"
+        />
+      </div>
+
+      {/* Caja sombra */}
+      <div className="RFTcajaSombra">
+        <Image
+    src="/img/wood/madera2color.jpg"
+          alt="Imagen sombra"
+          fill
+          className="RFTimagenSombra"
+        />
+      </div>
+    </div>
+
+        <div className="RFTcontenedor">
+      {/* Caja principal */}
+      <div className="RFTcajaPrincipal">
+        <Image
+    src="/img/wood/silla2.jpg"
+          alt="Imagen central"
+          width={150}
+          height={150}
+          className="RFTimagenCentral"
+        />
+      </div>
+
+      {/* Caja sombra */}
+      <div className="RFTcajaSombra">
+        <Image
+    src="/img/wood/silla2color.jpg"
+          alt="Imagen sombra"
+          fill
+          className="RFTimagenSombra"
+        />
+      </div>
+    </div>
+
   </div>
 
   {/* Botón con margen si hay espacio */}
   <div className="mt-4 lg:mt-0 lg:ml-4  ">
-  <button className="bg-amber-900 text-amber-50 font-semibold py-2 px-4 rounded-lg 
+  <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg 
                     hover:bg-amber-50 hover:text-amber-900 transition duration-300 ease-in-out w-max"
     onClick={handleButtonClick}
   >

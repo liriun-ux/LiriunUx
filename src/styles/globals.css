@@ -13,6 +13,7 @@
 @import "./Nosotros/mision.css";
 @import "./catalogo/phone.css";
 @import "./catalogo/pollos.css";
+@import "./catalogo/madera.css";
 
 :root {
     --spacing: 0.25rem;
