@@ -67,8 +67,7 @@ export const Pollos = React.forwardRef<HTMLDivElement>((props, ref) => {
             <div id='Pstx' >
                 <div>
 
-        ¡Aprovecha un <span className='StxS '>40%</span> de descuento en tu primer pedido! Te esperamos para que disfrutes de nuestros productos.
-                </div>
+        ¡Aprovecha un <span className='StxS '>40%</span> de descuento en tu primer pedido!  </div>
             </div>
             <div id='Psim'>
                 <Image

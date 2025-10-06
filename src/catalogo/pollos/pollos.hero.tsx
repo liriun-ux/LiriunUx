@@ -48,7 +48,7 @@ const PollosHeroCarr: React.FC<PollosHeroCarrProps> = ({ slides, }) => {
 <div
         key={i}
         id={slides[i].title} // id con el título del slide
-        className={`absolute inset-0 transition-opacity duration-700 ${
+        className={`oritusl absolute inset-0 transition-opacity duration-700 ${
           i === currentIndex ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -57,7 +57,7 @@ const PollosHeroCarr: React.FC<PollosHeroCarrProps> = ({ slides, }) => {
           alt={slides[i].title}
           fill
           style={{ objectFit: "cover" }}
-          className="rounded-lg"
+          className="oritusl1"
           // loading="eager"
           // unoptimized
         />
@@ -79,8 +79,8 @@ const PollosHeroCarr: React.FC<PollosHeroCarrProps> = ({ slides, }) => {
         </button>
       </div>
 
-      <div className={`flex flex-col justify-end items-end lg:items-end h-[60vh] h-lg:h-[70vh]   rounded-lg m-0 p-0 w-full 
-      ${direction === "NextInit" && ' animate-nextInit '} ${direction === "NextEnd" && ' animate-nextEnd '} 
+      <div className={`  flex flex-col justify-end items-end lg:items-end h-[60vh] h-lg:h-[70vh]   rounded-lg m-0 p-0 w-full      
+          ${direction === "NextInit" && ' animate-nextInit '} ${direction === "NextEnd" && ' animate-nextEnd '} 
       ${direction === "PrevInit" && ' animate-prevInit '} ${direction === "PrevEnd" && ' animate-prevEnd '}`}>
         {/* Imagen de fondo */}
         {images}

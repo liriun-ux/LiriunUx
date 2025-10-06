@@ -302,3 +302,20 @@ filter: drop-shadow(5px 5px 25px #fa0) drop-shadow(-5px -5px 10px #ff8300);
     height: 100%;
     left: 10;
 }
+
+/*NOTE: border*/
+
+.oritusl{
+    border: 2rem solid #000000;
+    border-radius: 0.5rem;
+    @media (max-width: 1204px) {
+        border: 1rem solid #000000;
+    }
+}
+.oritusl1{
+    border: 1rem solid #ffffff;
+    /* border-radius: 1.5rem; */
+    @media (max-width: 1204px) {
+        border: 0.2rem solid #ffffff;
+    }
+}
