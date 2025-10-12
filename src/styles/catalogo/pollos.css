@@ -64,7 +64,6 @@
 .PllSope{
     position: absolute;
     top: 300%;
-    background-color: #080b0baa;
     width: 100%;
     padding: 3rem;
     display: grid;
@@ -72,7 +71,7 @@
     align-items: center;
     text-align: center;
 filter: drop-shadow(5px 5px 15px #3c210491) drop-shadow(-5px -5px 10px #281402c9);
-  background-color: #391309b2;
+background-color: #10040282;
 }
 
 .PBTOIO{
@@ -84,26 +83,30 @@ filter: drop-shadow(5px 5px 15px #3c210491) drop-shadow(-5px -5px 10px #281402c9
   z-index: 20;
   height: 34px;
   border-radius: 10px;
-  padding: 0.3rem;
-  background: #fbe475;
-  filter: drop-shadow(5px 5px 15px #fbb475) drop-shadow(-5px -5px 10px #ffaa00);
+  /* padding: 0.5rem; */
+  background: #ffffff;
+  border: 0.2rem solid #000;
+  filter: drop-shadow(5px 5px 5px #000000) drop-shadow(-5px -5px 5px #552200);
     @media (min-width: 1204px) {
     display: none;
     }
   transition: all 1s ease;
 }
-.PBTOIO:hover{
-    background: #a6710b;
-}
+/* .PBTOIO:hover{ */
+/*     background: #a6710b; */
+/* } */
 .PBtxt{
-  color: #a6710b;          /* text-[#a6710b] */
+    margin: 0.15rem;
+    position: relative;
+    /* top: -100%; */
+  color: #000000;          /* text-[#a6710b] */
   font-size: 1.5rem;       /* text-2xl = 24px (1.5rem) */
-  line-height: 2rem;       /* en Tailwind text-2xl también define line-height */
+  line-height: 0rem;       /* en Tailwind text-2xl también define line-height */
 }
 
-.PBTOIO:hover .PBtxt {
-  color: #fbe475;          /* hover:text-[#fbe475] */
-}
+/* .PBTOIO:hover .PBtxt { */
+/*   color: #fbe475;          
+/* } */
 #PNNsb{
     position: absolute;
     width: 100%;
@@ -121,7 +124,7 @@ filter: drop-shadow(5px 5px 15px #3c210491) drop-shadow(-5px -5px 10px #281402c9
 }
 #BNPDS{
     color: #ffee00;
-    background:#561c0d;
+background: #3a1207;
     width: 90%;
     height: 100%;
     border-radius: 10px;
@@ -151,12 +154,14 @@ filter: drop-shadow(5px 5px 15px #3c210491) drop-shadow(-5px -5px 10px #281402c9
 }
 .IPlooo{
   display: inline-block;
-  filter: drop-shadow(5px 5px 15px #fbb475) drop-shadow(-5px -5px 10px #ffaa00);
+  /* filter: drop-shadow(5px 5px 15px #fbe4e5) drop-shadow(-5px -5px 10px #ffeeee); */
+    box-shadow: #eeeeee 5px 5px 15px;
+
   margin-inline: 0.6rem;
   /* padding: 0.2rem; */
   /* padding-top: 0.3rem; */
   transition: all 1s ease;
-  background: #fbe475;
+  background: #eeeeee;
   border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -169,11 +174,12 @@ filter: drop-shadow(5px 5px 15px #3c210491) drop-shadow(-5px -5px 10px #281402c9
   transition: all 1s ease;
 }
 .IPlooo:hover .PSma-tx{
-    color: #fbe475;
+    color: #000000;
 }
 .IPlooo:hover{
 
-  background: #a6710b;
+  /* background: #a6710b; */
+    border: 0.2rem solid #000000;
 }
 .PSma-it{
     /* background-color: #044f78; */
@@ -184,13 +190,11 @@ filter: drop-shadow(5px 5px 15px #3c210491) drop-shadow(-5px -5px 10px #281402c9
 }
 .PSma-tx{
     /* background-color: #7789f0; */
-    color: #ffffff;
   display: inline-block; /* necesario */
   /* font-weight: lighter; */
   font-family: "rekia";
-color: #a6710b;
-  filter: drop-shadow(5px 5px 15px #a6710b) drop-shadow(-5px -5px 10px #a6710b);
-
+    color: #4d1c04;
+  filter: drop-shadow(5px 5px 15px #3d2b08) drop-shadow(-5px -5px 10px #420404);
   /* text-decoration: underline; */
   /* text-underline-offset: 0.3rem; */
   text-decoration-thickness: 2px;
@@ -201,7 +205,7 @@ color: #a6710b;
       }
 }
 .PSma-tx:hover{
-    color: #fbe475;
+    color: #eeeeee;
 }
 /*NOTE: baner de bajo*/
 @font-face {
@@ -230,6 +234,8 @@ color: #a6710b;
     }
 filter: drop-shadow(5px 5px 25px #fa0) drop-shadow(-5px -5px 10px #ff8300);
   background-color: #e5810099;
+  filter: drop-shadow(5px 5px 25px #302102)drop-shadow(-5px -5px 10px #3e2306);
+  background-color: #261602;
   padding-bottom: 2rem;
 }
 #Pstx{

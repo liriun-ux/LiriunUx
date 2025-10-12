@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React from 'react';
 import PollosHeroCarr from './pollos.hero';
+import ChickenIcon from "@/public/img/pollo/fried-chicken-lunch-svgrepo-com.svg";
 
 export const Pollos = React.forwardRef<HTMLDivElement>((props, ref) => {
 
@@ -55,17 +56,19 @@ export const Pollos = React.forwardRef<HTMLDivElement>((props, ref) => {
       {/* Contenedor con título, descripción y botón */}
         <div id='Psucr'>
             <div id='CSioc'>
-                <Image
-                src="/img/pollo/fried-chicken-lunch-svgrepo-com.svg"
-                alt="Fondo"
-                fill
-                quality={100}
-                style={{ objectFit: "contain" }}
-                className=""
-                />
+<Image
+  src="/img/pollo/fried-chicken-lunch-svgrepo-com.svg"
+  alt="Fondo"
+  fill
+  quality={100}
+  style={{
+    objectFit: "contain",
+    filter: "invert(71%) sepia(93%) saturate(385%) hue-rotate(7deg) brightness(109%) contrast(101%)",
+  }}
+/>
             </div>
             <div id='Pstx' >
-                <div>
+                <div className='bg-[#120f0c78]'>
 
         ¡Aprovecha un <span className='StxS '>40%</span> de descuento en tu primer pedido!  </div>
             </div>
