@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import React from 'react';
 import PollosHeroCarr from './pollos.hero';
-import ChickenIcon from "@/public/img/pollo/fried-chicken-lunch-svgrepo-com.svg";
 
 export const Pollos = React.forwardRef<HTMLDivElement>((props, ref) => {
 
