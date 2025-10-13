@@ -57,7 +57,7 @@
   border-radius: 8px;
   font-size: 12rem;
   color: black;
-  font-family: monospace;
+  /* font-family: monospace; */
     }
     .log-cont {
         opacity: 0;
