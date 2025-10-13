@@ -16,6 +16,8 @@ import StationeryStoreInfoCard from "../presentations/stationery_store/stationer
 import NavSmartphones from "@/catalogo/phones/nav.phone";
 import NavPollos from "@/catalogo/pollos/nav.pollos";
 
+import NavIngenieria from "@/catalogo/ingenieria/nav";
+
 // El componente que recibirá el string y retornará otro componente
 interface DynamicElementsProductsProps {
   componentType: string;
@@ -75,6 +77,12 @@ const DynamicElementsProducts: React.FC<DynamicElementsProductsProps> = ({ compo
       return (
         <>
            <NavPollos/>
+        </>
+    );
+    case 'Ingenieria':
+      return (
+        <>
+           <NavIngenieria/>
         </>
     );
     default:

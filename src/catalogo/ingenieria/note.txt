@@ -1,0 +1,7 @@
+consulta de Ingenieria :
+    * crear  un conteo acendente de casos realizados.
+    * estilo cuadrado
+    * animaciones internas en cambio de color 
+    * imaen de fondo semi estatica , que avanza a una velosidad diferente del contenido
+
+    
