@@ -2,7 +2,8 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { Electronic,  Coffee, CoffeePrd, StationeryStore } from './ProductsExport';
 import DynamicElementsProducts from './DynamicElementProduct';
-import {  WoodFurniture, CoffeeShop } from '../presentations/PresenntationExports';
+// import {  WoodFurniture } from '../presentations/PresenntationExports';
+import {   CoffeeShop } from '../presentations/PresenntationExports';
 import { Smartphones } from '@/catalogo/phones/phones';
 import { Pollos } from '@/catalogo/pollos/pollos';
 import { Ingenieria } from '@/catalogo/ingenieria/ingenieria';
@@ -81,7 +82,6 @@ const HandleProducts = () => {
       <Electronic ref={(el) => { sectionRefs.current[5] = el; }} />
       <StationeryStore ref={(el) => { sectionRefs.current[6] = el; }} />
       <CoffeeShop ref={(el) => { sectionRefs.current[7] = el; }} />
-      <WoodFurniture ref={(el) => { sectionRefs.current[8] = el; }} />
     </div>
   );
 };

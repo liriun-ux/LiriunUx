@@ -312,16 +312,19 @@ filter: drop-shadow(5px 5px 25px #fa0) drop-shadow(-5px -5px 10px #ff8300);
 /*NOTE: border*/
 
 .oritusl{
-    border: 2rem solid #000000;
+    /* border: 2rem solid #000000; */
+filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.6));
     border-radius: 0.5rem;
-    @media (max-width: 1204px) {
-        border: 1rem solid #000000;
-    }
+    /* @media (max-width: 1204px) { */
+    /*     border: 1rem solid #000000; */
+    /* } */
+
 }
 .oritusl1{
-    border: 1rem solid #ffffff;
+    border-radius: 0.2rem;
+    /* border: 1rem solid #ffffff; */
     /* border-radius: 1.5rem; */
-    @media (max-width: 1204px) {
-        border: 0.2rem solid #ffffff;
-    }
+    /* @media (max-width: 1204px) { */
+    /*     border: 0.2rem solid #ffffff; */
+    /* } */
 }
