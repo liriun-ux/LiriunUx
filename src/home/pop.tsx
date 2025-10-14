@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function PopupExample() {
   const [open, setOpen] = useState(false);
@@ -23,7 +24,7 @@ export default function PopupExample() {
     rel="noopener noreferrer"
     className="popup-text fck boxA"
   >
-    Facebook
+    facebook.com/LiriunUX
   </Link>
 
   <Link
@@ -32,7 +33,7 @@ export default function PopupExample() {
     rel="noopener noreferrer"
     className="popup-text twe boxA"
   >
-    X
+    x.com/LiriunUX
   </Link>
 
   <Link
@@ -41,7 +42,28 @@ export default function PopupExample() {
     rel="noopener noreferrer"
     className="popup-text ist boxA"
   >
-    Instagram
+    instagram.com/liriun_ux
+  </Link>
+  <Link
+    href="https://wa.me/59163156033"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="popup-text wst boxA"
+  >
+    +591 63156033
+  </Link>
+  <Link
+    href="https://maps.app.goo.gl/R3cGmUXkMjFHY6vi7"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="popup-text mpas boxA flex flex-col"
+  >
+    <div className="flex">
+    <FaMapMarkerAlt color="#f00"/>  Av. Alfredo Franco Valle 708-51
+    </div>
+    <div>
+    El Alto Of A-7
+    </div>
   </Link>
               <button id="close-btn" onClick={() => setOpen(false)}>
                 X

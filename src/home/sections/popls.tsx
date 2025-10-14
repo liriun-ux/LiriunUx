@@ -24,7 +24,7 @@ export default function PopContact() {
     rel="noopener noreferrer"
     className="popup-text fck boxA"
   >
-    Facebook
+    facebook.com/LiriunUX
   </Link>
 
   <Link
@@ -42,7 +42,7 @@ export default function PopContact() {
     rel="noopener noreferrer"
     className="popup-text ist boxA"
   >
-    Instagram
+    facebook.com/LiriunUX
   </Link>
               <button id="close-btn" onClick={() => setOpen(false)}>
                 X

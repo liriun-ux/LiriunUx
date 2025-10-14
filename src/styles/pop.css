@@ -181,6 +181,19 @@
 
 
 }
+.mpas{
+--fotb: #F9F9F9;
+  --fotb1: #1A73E8;
+    background: var(--fotb); /* fondo azul */
+    border: 3px solid #E0E0E0;
+    text-shadow: var(--fotb1) 0px 2px 15px;
+    box-shadow: #aaa 5px 5px 15px;
+}
+.wst{
+--fotb: #25d366;
+  --fotb1: #fcf5eb;
+    background: var(--fotb); /* fondo azul */
+}
 .fck{
 --fotb: #007cff;
   --fotb1: #f9f6f9;
