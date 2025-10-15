@@ -1,0 +1,153 @@
+
+
+/*NOTE: barnav*/
+.burger-nav1{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    line-height: 0.7;
+    padding: 1rem;
+    padding-top: 0.1rem;
+    filter: blur(30px);
+    color: #eee;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 40%,rgba(0,0,0,0.6) 80%, rgba(0,0,0,0) 100%);
+    z-index: -1;
+    padding-bottom: 12dvh;
+}
+.burger-nav{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    padding-top: 0.1rem;
+    /* background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 40%,rgba(0,0,0,0.6) 80%, rgba(0,0,0,0) 100%); */
+    background: transparent;
+    color: #eee;
+    line-height: 0.7;
+    padding-bottom: 12dvh;
+/* filter: blur(0px); */
+}
+.burger_title_the{
+
+    font-size: 2.5dvw;    /* tamaño de letra */
+    font-weight: 900;   /* grosor de letra (100-900) */
+  text-shadow: #ffffff 0px 5px 15px;
+    @media (width<1000px){
+        font-size: 7dvw;    /* tamaño de letra */
+    }
+}
+.burger_title_burger1{
+    font-size: 10dvw;    /* tamaño de letra */
+    font-weight: 900;   /* grosor de letra (100-900) */
+    width: 100%;
+    text-align: center;
+    @media (width<1000px){
+        font-size: 20dvw;    /* tamaño de letra */
+    }
+}
+
+.burger_title_burger{
+    font-size: 10dvw;    /* tamaño de letra */
+    font-weight: 900;   /* grosor de letra (100-900) */
+    width: 100%;
+    text-align: center;
+  text-shadow: #ffffff 0px 5px 15px;
+    @media (width<1000px){
+        font-size: 20dvw;    /* tamaño de letra */
+  text-shadow: #ffffff 0px 5px 15px;
+    }
+}
+.bbtf{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: -6.0dvh;
+}
+.burger_title_factory{
+    font-weight: 100;   /* grosor de letra (100-900) */
+    font-family: rekia;
+    font-size: 5.5dvw;    /* tamaño de letra */
+    color: #f0b100;
+  text-shadow: #f0b100 0px 5px 15px;
+    transform: rotate(-4deg);
+    @media (width<1000px){
+        font-size: 11dvw;    /* tamaño de letra */
+    }
+}
+/*NOTE: carrusel*/
+.burger-carrusel{
+    position: relative;
+    display: flex;
+    /* margin-top: 30dvh; */
+    width: 90%;
+    height: 80%;
+    align-items: end;
+    bottom: -5dvh;
+    @media (width<1000px){
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+    }
+}
+.burger-img{
+  position: absolute;
+    width: 75%;      /* w-7/12 */
+  height: 75%;              /* h-1/2 */
+  display: flex;            /* flex */
+  top: 5dvw;                 /* top-25 (si es una clase personalizada en Tailwind) */
+  box-shadow: 20px 20px 20px #1a1a1a;
+  border-radius: 0.5rem;
+    @media (width< 1024px) {
+    width: 100%;      /* w-7/12 */
+    height: 55%;              /* h-1/2 */
+    }
+}
+.burger-tab{
+    background: #222;
+  box-shadow: 10px 10px 20px #1a1a1a;
+  position: absolute;
+    width:28%;      /* w-7/12 */
+  height: 50%;              /* h-1/2 */
+  display: flex;            /* flex */
+  align-items: center;
+  flex-direction: column;
+  /* top: 0; */
+    right: 0;
+    bottom: 0;
+    border-radius: 0.5rem;
+    color: white;
+    @media (width< 1024px) {
+        width: 80%;      /* w-7/12 */
+        height: 44%;              /* h-1/2 */
+        right: auto;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    padding: 3rem;
+}
+
+.burger-tab-ing{
+    color: #f0b100;
+    text-align: center;
+    font-size: 1.6rem;    /* tamaño de letra */
+    font-weight: 300;   /* grosor de letra (100-900) */
+    margin-bottom: 2rem;
+  text-shadow: #f0b100 0px 0px 10px;
+  width: 100%;
+    @media (width< 1024px) {
+    font-size: 1.2rem;    /* tamaño de letra */
+    font-weight: 300;   /* grosor de letra (100-900) */
+    margin-bottom: 0.6rem;
+    }
+}
+.burger-tab-cio{
+    /* background: #102; */
+    padding-inline: 2rem;
+    font-size: 1.20rem;    /* tamaño de letra */
+    font-weight: 500;   /* grosor de letra (100-900) */
+  text-shadow: #ffffff 0px 0px 10px;
+    @media (width< 1024px) {
+    font-size: 1.0rem;    /* tamaño de letra */
+    font-weight: 300;   /* grosor de letra (100-900) */
+    padding-inline: 0.2rem;
+    }
+}

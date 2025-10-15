@@ -15,6 +15,7 @@
 @import "./catalogo/pollos.css";
 @import "./catalogo/madera.css";
 @import "./catalogo/Ingenieria.css";
+@import "./catalogo/burger.css";
 
 :root {
     --spacing: 0.25rem;

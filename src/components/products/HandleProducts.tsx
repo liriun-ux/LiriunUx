@@ -7,6 +7,7 @@ import {   CoffeeShop } from '../presentations/PresenntationExports';
 import { Smartphones } from '@/catalogo/phones/phones';
 import { Pollos } from '@/catalogo/pollos/pollos';
 import { Ingenieria } from '@/catalogo/ingenieria/ingenieria';
+import { BurgerPrd } from '@/catalogo/burger/burger.p';
 
 
 const animationList: { [key: string]: string } = {
@@ -20,6 +21,7 @@ const animationList: { [key: string]: string } = {
   'Smartphones':'animate-slideInR',
   'Pollos':'animate-slideInR',
   'Ingenieria':'animate-slideInR',
+  'BurgerPrd':'animate-slideInR',
 };
 
 const HandleProducts = () => {
@@ -74,14 +76,16 @@ const HandleProducts = () => {
   return (
     <div>
       {_DynamicElements}
-      <Ingenieria ref={(el) => { sectionRefs.current[0] = el; }} />
-      <Smartphones ref={(el) => { sectionRefs.current[1] = el; }} />
-      <Pollos ref={(el) => { sectionRefs.current[2] = el; }} />
-      <Coffee ref={(el) => { sectionRefs.current[3] = el; }} />
-      <CoffeePrd ref={(el) => { sectionRefs.current[4] = el; }} />
-      <Electronic ref={(el) => { sectionRefs.current[5] = el; }} />
-      <StationeryStore ref={(el) => { sectionRefs.current[6] = el; }} />
-      <CoffeeShop ref={(el) => { sectionRefs.current[7] = el; }} />
+
+      <BurgerPrd        ref={(el) => { sectionRefs.current[0] = el; }} />
+      <Ingenieria       ref={(el) => { sectionRefs.current[1] = el; }} />
+      <Smartphones      ref={(el) => { sectionRefs.current[2] = el; }} />
+      <Pollos           ref={(el) => { sectionRefs.current[3] = el; }} />
+      <Coffee           ref={(el) => { sectionRefs.current[4] = el; }} />
+      <CoffeePrd        ref={(el) => { sectionRefs.current[5] = el; }} />
+      <Electronic       ref={(el) => { sectionRefs.current[6] = el; }} />
+      <StationeryStore  ref={(el) => { sectionRefs.current[7] = el; }} />
+      <CoffeeShop       ref={(el) => { sectionRefs.current[8] = el; }} />
     </div>
   );
 };
