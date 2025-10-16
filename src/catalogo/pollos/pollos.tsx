@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
 import React from 'react';
-import PollosHeroCarr from './pollos.hero';
+import PollosMenu from './pollos.menu'
 
 export const Pollos = React.forwardRef<HTMLDivElement>((props, ref) => {
 
@@ -53,42 +53,48 @@ export const Pollos = React.forwardRef<HTMLDivElement>((props, ref) => {
             </div>
 
       {/* Contenedor con título, descripción y botón */}
+        <div id='Psucr1'>
+        </div>
         <div id='Psucr'>
-            <div id='CSioc'>
-<Image
-  src="/img/pollo/fried-chicken-lunch-svgrepo-com.svg"
-  alt="Fondo"
-  fill
-  quality={100}
-  style={{
-    objectFit: "contain",
-    filter: "invert(71%) sepia(93%) saturate(385%) hue-rotate(7deg) brightness(109%) contrast(101%)",
-  }}
-/>
-            </div>
-            <div id='Pstx' >
-                <div className='bg-[#120f0c78]'>
-
-        ¡Aprovecha un <span className='StxS '>40%</span> de descuento en tu primer pedido!  </div>
-            </div>
-            <div id='Psim'>
-                <Image
-                src="/img/pollo/Daco_4140579.png"
-                alt="Fondo"
-                fill
-                quality={100}
-                style={{ objectFit: "contain" }}
-                className=""
-                />
-            </div>
-
         </div>
 
         <div id='PollosC' className="KOLOP">
-            <PollosHeroCarr slides={slides}  />
+            <PollosMenu slides={slides}/>
         </div>
     </div>
   );
 });
 
 Pollos.displayName = 'Pollos';
+
+            // <PollosHeroCarr slides={slides}  />
+
+
+//             <div id='CSioc'>
+// <Image
+//   src="/img/pollo/fried-chicken-lunch-svgrepo-com.svg"
+//   alt="Fondo"
+//   fill
+//   quality={100}
+//   style={{
+//     objectFit: "contain",
+//     filter: "invert(71%) sepia(93%) saturate(385%) hue-rotate(7deg) brightness(109%) contrast(101%)",
+//   }}
+// />
+//             </div>
+//             <div id='Pstx' >
+//                 <div className='bg-[#120f0c78]'>
+//
+//         ¡Aprovecha un <span className='StxS '>40%</span> de descuento en tu primer pedido!  </div>
+//             </div>
+//             <div id='Psim'>
+//                 <Image
+//                 src="/img/pollo/Daco_4140579.png"
+//                 alt="Fondo"
+//                 fill
+//                 quality={100}
+//                 style={{ objectFit: "contain" }}
+//                 className=""
+//                 />
+//             </div>
+

@@ -78,9 +78,9 @@ const HandleProducts = () => {
       {_DynamicElements}
 
       <BurgerPrd        ref={(el) => { sectionRefs.current[0] = el; }} />
-      <Ingenieria       ref={(el) => { sectionRefs.current[1] = el; }} />
-      <Smartphones      ref={(el) => { sectionRefs.current[2] = el; }} />
-      <Pollos           ref={(el) => { sectionRefs.current[3] = el; }} />
+      <Pollos           ref={(el) => { sectionRefs.current[1] = el; }} />
+      <Ingenieria       ref={(el) => { sectionRefs.current[2] = el; }} />
+      <Smartphones      ref={(el) => { sectionRefs.current[3] = el; }} />
       <Coffee           ref={(el) => { sectionRefs.current[4] = el; }} />
       <CoffeePrd        ref={(el) => { sectionRefs.current[5] = el; }} />
       <Electronic       ref={(el) => { sectionRefs.current[6] = el; }} />
