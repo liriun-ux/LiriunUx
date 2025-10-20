@@ -8,7 +8,7 @@ export const BurgerPrd = React.forwardRef<HTMLDivElement>((props, ref) => {
   return (
     <div
       id="BurgerPrd"
-      className="relative h-screen flex justify-center items-center text-white newSection overflow-hidden"
+      className="relative h-screen flex justify-center items-center text-white newSection overflow-hidden "
       ref={ref}
     >
           <Image
