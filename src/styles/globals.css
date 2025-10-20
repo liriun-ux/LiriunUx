@@ -239,3 +239,186 @@ html, body {
   margin: 0;
 }
 
+
+
+/*NOTE: example test*/
+
+
+.rectangles-area {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #1d2430;
+  /* background: transparent; */
+}
+
+/* Base del rectángulo */
+.rectangle {
+  position: absolute;
+  opacity: 0;
+  border-radius: 6px;
+  animation: enter 4.5s ease-in-out forwards;
+}
+
+/* Direcciones posibles */
+.from-top {
+  transform: translateY(-150%);
+}
+
+.from-bottom {
+  transform: translateY(150%);
+}
+
+/* Animación de entrada */
+@keyframes enter {
+  0% {
+    opacity: 0;
+transform: translateY(var(--start-offset, 0));
+  }
+  20%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100%{
+    /* opacity: 1; */
+    /* transform: translateY(0); */
+    opacity: 0;
+    transform: translateY(var(--start-offset, 0));
+  }
+}
+
+
+.from-top {
+  --start-offset: -150%;
+}
+
+.from-bottom {
+  --start-offset: 150%;
+}
+
+
+
+.floating-container {
+  position: absolute;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Caja principal */
+.floating-box {
+  position: absolute;
+  width: 20dvw;
+  height: 20dvh;
+  background: transparent;
+  border-radius: 1dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: moveInOut 7.0s ease-in-out forwards;
+}
+
+/* Direcciones posibles */
+.from-top {
+  --start-offset: -190%;
+}
+
+.from-bottom {
+  --start-offset: 190%;
+}
+
+/* Animación de entrada y salida */
+@keyframes moveInOut {
+  0% {
+    opacity: 0;
+  }
+  10%{
+    opacity: 0;
+    transform: translateY(var(--start-offset));
+  }
+  30%{
+
+    opacity: 1;
+    transform: translateY(0);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  85%{
+    opacity: 0;
+    transform: translateY(var(--start-offset));
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(var(--start-offset));
+  }
+}
+
+/* Espacio para tu animación interna */
+.inner-animation {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5dvh;
+  animation: fadeInOut 2s ease-in-out infinite alternate;
+}
+
+/* Ejemplo de animación interna simple */
+@keyframes fadeInOut {
+  from {
+    opacity: 0.3;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+#nav-itorA{
+  border-radius: 0.4rem;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: #fff 0px 5px 15px;
+    position: relative;
+    justify-content: space-evenly;
+}
+#nav-logoA {
+  color: #ffffff;
+  background-color: #000;
+  padding-inline: 4rem;
+  font-size: 5rem;
+  font-style: oblique;
+  text-shadow: #f0f0f0 0px 5px 15px;
+  position: relative;
+  height: 80%;
+  width: max-content;
+  border-radius: 0.4rem;
+  box-shadow: #000 0px 5px 15px;
+
+    display: flex;
+    position: relative;
+  justify-items: center;
+  align-items: center;
+  @media (max-width: 1204px) {
+    font-size: 2.3rem;
+  }
+}
+.loggar{
+  font-style: oblique ; /* oblique con ángulo opcional (soportado por browsers modernos) */
+  font-weight: 400;          /* delgado (100-300 son valores muy finos) */
+  text-decoration: underline;
+}

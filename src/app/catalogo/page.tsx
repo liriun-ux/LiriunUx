@@ -6,13 +6,11 @@ export const metadata: Metadata = {
   description:
     "Explora nuestro catálogo de sitios web, cada uno con diseño y funcionalidad única, creado para mostrar productos y servicios de forma moderna y efectiva.",
 };
-import HandleProducts from "@/components/products/HandleProducts"
+import PageCatla from "@/pages/pgcatl";
 
 export default function catalogo() {
     return (
-        <>
-            <HandleProducts/>
-        </>
+            <PageCatla/>
     )
 }
 
