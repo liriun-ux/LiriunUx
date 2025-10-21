@@ -9,6 +9,8 @@ import { Pollos } from '@/catalogo/pollos/pollos';
 import { Ingenieria } from '@/catalogo/ingenieria/ingenieria';
 import { BurgerPrd } from '@/catalogo/burger/burger.p';
 
+import HomeFooter from "@/home/sections/footer";
+
 
 const animationList: { [key: string]: string } = {
   'Electronic': 'animate-slideInR',
@@ -86,7 +88,10 @@ const HandleProducts = () => {
       <Electronic       ref={(el) => { sectionRefs.current[6] = el; }} />
       <StationeryStore  ref={(el) => { sectionRefs.current[7] = el; }} />
       <CoffeeShop       ref={(el) => { sectionRefs.current[8] = el; }} />
+      
+      <HomeFooter/>
     </div>
+
   );
 };
 

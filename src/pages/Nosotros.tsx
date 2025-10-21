@@ -10,6 +10,7 @@ import N_Pressentation from "@/nosotros/presentacion";
 import N_carateristicas from "@/nosotros/caracteristicas";
 import N_elegirnos from "@/nosotros/elegirnos";
 import NewHomeNavBar from "@/home/NewNav";
+import HomeFooter from "@/home/sections/footer";
 
 export default function PageNosotros() {
     const [showContent, setShowContent] = useState(false);
@@ -42,6 +43,7 @@ export default function PageNosotros() {
           <N_Pressentation/>
           <N_carateristicas/>
           <N_elegirnos/>
+          <HomeFooter/>
       </div>
       )}
     </div>

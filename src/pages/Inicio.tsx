@@ -11,6 +11,7 @@ import HeroHome from "@/home/sections/Hero";
 import InfoHome from "@/home/sections/Info";
 import Tecnologias from "@/home/sections/Tecnologias";
 import LastMss from "@/home/sections/Lastmss";
+import HomeFooter from "@/home/sections/footer";
 
 export default function PageInicio() {
     const [showContent, setShowContent] = useState(false);
@@ -42,6 +43,7 @@ export default function PageInicio() {
           <InfoHome/>
           <Tecnologias/>
           <LastMss/>
+          <HomeFooter/>
       </div>
       )}
     </div>

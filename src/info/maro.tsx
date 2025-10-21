@@ -2,6 +2,7 @@
 // pages/index.tsx
 import InvestigacionesList from "./base";
 import RespuestaSitioWeb from "./iicio";
+import HomeFooter from "@/home/sections/footer";
 
 const investigaciones = [
   {
@@ -39,6 +40,9 @@ const Maro: React.FC = () => {
                          <div className="text-black">
                              <RespuestaSitioWeb/>
                              <InvestigacionesList investigaciones={investigaciones} />
+                                <div className="mt-20">
+                             <HomeFooter/>
+                                </div>
                          </div>
                 </div>
             </div>
