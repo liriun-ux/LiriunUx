@@ -18,6 +18,8 @@ import NavPollos from "@/catalogo/pollos/nav.pollos";
 
 import NavIngenieria from "@/catalogo/ingenieria/nav";
 import BurgerNavBar from "@/catalogo/burger/burger.NavBar";
+import SaltenaNavBar from "@/catalogo/saltena/nav";
+import HeladeriaNavBar from "@/catalogo/heladeria/nav";
 
 // El componente que recibirá el string y retornará otro componente
 interface DynamicElementsProductsProps {
@@ -90,6 +92,18 @@ const DynamicElementsProducts: React.FC<DynamicElementsProductsProps> = ({ compo
       return (
         <>
            <BurgerNavBar/>
+        </>
+    );
+    case 'Saltena':
+      return (
+        <>
+           <SaltenaNavBar/>
+        </>
+    );
+    case 'Heladeria':
+      return (
+        <>
+           <HeladeriaNavBar/>
         </>
     );
     default:

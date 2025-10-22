@@ -10,6 +10,8 @@ import { Ingenieria } from '@/catalogo/ingenieria/ingenieria';
 import { BurgerPrd } from '@/catalogo/burger/burger.p';
 
 import HomeFooter from "@/home/sections/footer";
+import { Saltena } from '@/catalogo/saltena/saltena';
+import { Heladeria } from '@/catalogo/heladeria/helado';
 
 
 const animationList: { [key: string]: string } = {
@@ -24,6 +26,8 @@ const animationList: { [key: string]: string } = {
   'Pollos':'animate-slideInR',
   'Ingenieria':'animate-slideInR',
   'BurgerPrd':'animate-slideInR',
+  'Saltena':'animate-slideInR',
+  'Heladeria':'animate-slideInR',
 };
 
 const HandleProducts = () => {
@@ -81,14 +85,16 @@ const HandleProducts = () => {
 
       <BurgerPrd        ref={(el) => { sectionRefs.current[0] = el; }} />
       <Pollos           ref={(el) => { sectionRefs.current[1] = el; }} />
-      <Ingenieria       ref={(el) => { sectionRefs.current[2] = el; }} />
-      <Smartphones      ref={(el) => { sectionRefs.current[3] = el; }} />
-      <Coffee           ref={(el) => { sectionRefs.current[4] = el; }} />
-      <CoffeePrd        ref={(el) => { sectionRefs.current[5] = el; }} />
-      <Electronic       ref={(el) => { sectionRefs.current[6] = el; }} />
-      <StationeryStore  ref={(el) => { sectionRefs.current[7] = el; }} />
-      <CoffeeShop       ref={(el) => { sectionRefs.current[8] = el; }} />
-      
+      <Saltena          ref={(el) => { sectionRefs.current[2] = el; }} />
+      <Heladeria        ref={(el) => { sectionRefs.current[3] = el; }} />
+      <Ingenieria       ref={(el) => { sectionRefs.current[4] = el; }} />
+      <Smartphones      ref={(el) => { sectionRefs.current[5] = el; }} />
+      <Coffee           ref={(el) => { sectionRefs.current[6] = el; }} />
+      <CoffeePrd        ref={(el) => { sectionRefs.current[7] = el; }} />
+      <Electronic       ref={(el) => { sectionRefs.current[8] = el; }} />
+      <StationeryStore  ref={(el) => { sectionRefs.current[9] = el; }} />
+      <CoffeeShop       ref={(el) => { sectionRefs.current[10] = el; }} />
+         
       <HomeFooter/>
     </div>
 
