@@ -31,6 +31,7 @@ export default function RootLayout({
         <head>
         <meta name="google-site-verification" content="9uoYUtZTuSGRKFyr7K4ShT0CAAYUxXLI9pfJ0kjg88k" />
         <meta name="google-site-verification" content="4M-rBEqCqgc-2h0Rf40d04W1WqTiSfJa3j0F2UYlrHA" />
+          <meta name="google-adsense-account" content="ca-pub-5173227958286915"/>
         <meta name="google" content="notranslate"/>
         <meta name="googlebot" content="notranslate"/>
         <link rel="icon" href="/favicon.ico" />
